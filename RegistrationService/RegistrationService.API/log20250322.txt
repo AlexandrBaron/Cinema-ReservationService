@@ -1,0 +1,56 @@
+2025-03-22 19:12:17.364 +01:00 [INF] Registered 7 endpoints in 405 milliseconds.
+2025-03-22 19:12:17.738 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-22 19:12:17.742 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-22 19:12:17.776 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-22 19:12:17.922 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 19:12:17.924 +01:00 [INF] Hosting environment: Development
+2025-03-22 19:12:17.926 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-22 19:48:43.844 +01:00 [INF] Registered 7 endpoints in 243 milliseconds.
+2025-03-22 19:48:44.044 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-22 19:48:44.046 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-22 19:48:44.062 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-22 19:48:44.120 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 19:48:44.120 +01:00 [INF] Hosting environment: Development
+2025-03-22 19:48:44.121 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-22 19:50:14.595 +01:00 [INF] Registered 7 endpoints in 208 milliseconds.
+2025-03-22 19:50:14.810 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-22 19:50:14.811 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-22 19:50:14.826 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-22 19:50:14.879 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 19:50:14.881 +01:00 [INF] Hosting environment: Development
+2025-03-22 19:50:14.881 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-22 20:00:11.634 +01:00 [INF] Registered 7 endpoints in 200 milliseconds.
+2025-03-22 20:00:11.814 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-22 20:00:11.816 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-22 20:00:11.835 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-22 20:00:11.892 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 20:00:11.893 +01:00 [INF] Hosting environment: Development
+2025-03-22 20:00:11.894 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-22 20:00:43.313 +01:00 [INF] Registered 7 endpoints in 198 milliseconds.
+2025-03-22 20:00:43.492 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-22 20:00:43.493 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-22 20:00:43.509 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-22 20:00:43.565 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 20:00:43.566 +01:00 [INF] Hosting environment: Development
+2025-03-22 20:00:43.567 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-22 20:01:48.522 +01:00 [INF] Registered 7 endpoints in 228 milliseconds.
+2025-03-22 20:01:48.736 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-22 20:01:48.738 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-22 20:01:48.757 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-22 20:01:48.805 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 20:01:48.806 +01:00 [INF] Hosting environment: Development
+2025-03-22 20:01:48.807 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-22 20:02:11.375 +01:00 [INF] Registered 7 endpoints in 218 milliseconds.
+2025-03-22 20:02:11.556 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-22 20:02:11.558 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-22 20:02:11.576 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-22 20:02:11.632 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 20:02:11.634 +01:00 [INF] Hosting environment: Development
+2025-03-22 20:02:11.634 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-22 20:02:51.802 +01:00 [INF] Registered 7 endpoints in 250 milliseconds.
+2025-03-22 20:02:51.987 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-22 20:02:51.991 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-22 20:02:52.008 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-22 20:02:52.066 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 20:02:52.067 +01:00 [INF] Hosting environment: Development
+2025-03-22 20:02:52.067 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API

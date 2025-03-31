@@ -1,0 +1,14 @@
+2025-03-21 09:26:35.887 +01:00 [INF] Registered 7 endpoints in 510 milliseconds.
+2025-03-21 09:26:36.308 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-21 09:26:36.310 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-21 09:26:36.350 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-21 09:26:36.396 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-21 09:26:36.397 +01:00 [INF] Hosting environment: Development
+2025-03-21 09:26:36.397 +01:00 [INF] Content root path: C:\Users\jan.hrabe1\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-21 09:28:31.311 +01:00 [INF] Registered 7 endpoints in 584 milliseconds.
+2025-03-21 09:28:31.722 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-21 09:28:31.723 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-21 09:28:31.762 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-21 09:28:31.803 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-21 09:28:31.803 +01:00 [INF] Hosting environment: Development
+2025-03-21 09:28:31.804 +01:00 [INF] Content root path: C:\Users\jan.hrabe1\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API

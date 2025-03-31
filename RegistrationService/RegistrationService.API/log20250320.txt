@@ -1,0 +1,21 @@
+2025-03-20 13:17:31.981 +01:00 [INF] Registered 7 endpoints in 980 milliseconds.
+2025-03-20 13:17:33.004 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-20 13:17:33.006 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-20 13:17:33.070 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-20 13:17:33.127 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-20 13:17:33.128 +01:00 [INF] Hosting environment: Development
+2025-03-20 13:17:33.129 +01:00 [INF] Content root path: C:\Users\jan.hrabe1\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-20 13:39:05.145 +01:00 [INF] Registered 7 endpoints in 674 milliseconds.
+2025-03-20 13:39:05.569 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-20 13:39:05.570 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-20 13:39:05.606 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-20 13:39:05.644 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-20 13:39:05.645 +01:00 [INF] Hosting environment: Development
+2025-03-20 13:39:05.646 +01:00 [INF] Content root path: C:\Users\jan.hrabe1\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-20 13:45:45.718 +01:00 [INF] Registered 7 endpoints in 685 milliseconds.
+2025-03-20 13:45:46.118 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-20 13:45:46.120 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-20 13:45:46.174 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-20 13:45:46.242 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-20 13:45:46.243 +01:00 [INF] Hosting environment: Development
+2025-03-20 13:45:46.244 +01:00 [INF] Content root path: C:\Users\jan.hrabe1\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API

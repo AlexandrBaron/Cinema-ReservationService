@@ -1,0 +1,81 @@
+﻿@page "/ReservationConfirmation/{ReservationId:guid}"
+@inject NavigationManager Navigation
+@using Cinema.WEB.Api
+@inject ReservationServiceHttpClient ReservationService
+@inject MovieServiceHttpClient MovieServiceClient
+@inject CinemaServiceHttpClient CinemaServiceClient
+@rendermode InteractiveServer
+
+
+<PageTitle>ReservationConfirmation</PageTitle>
+
+<div class="container">
+    <h1>KINO</h1>
+    <h3>POTVRZENÍ REZERVACE</h3>
+
+    <div class="reservation-box">
+        <div class="reservation-details">
+            <div class="movie-title">@MovieName</div>
+            <div class="seat-info">
+                <strong>SEDADLA:</strong> @FormattedSeats
+            </div>
+            <div class="seat-info">
+                <strong>EMAIL:</strong> @UserEmail
+            </div>
+
+        </div>
+
+        <button class="reserve-button" @onclick="ConfirmReservationFix" disabled="@IsReservationDisabled">
+            ZÁVAZNĚ OBJEDNAT
+        </button>
+
+        @if (ShowSuccessMessage)
+        {
+            <div class="alert alert-success mt-3">
+                Rezervace potvrzena!
+            </div>
+
+            <button class="btn btn-success mt-2" @onclick="@(() => Navigation.NavigateTo("/"))">
+                Zpět na hlavní stránku
+            </button>
+        }
+    </div>
+
+</div>
+
+@code {
+    [Parameter]
+    public Guid ReservationId { get; set; }
+
+    private string MovieName = null;
+    private string FormattedSeats { get; set; } = "Žádné sedadlo";
+    private string UserEmail { get; set; } = "";
+    private bool IsReservationDisabled => string.IsNullOrWhiteSpace(UserEmail);
+    private List<string> seatDetails = new();
+    private bool ShowSuccessMessage { get; set; } = false;
+
+    protected async override Task OnInitializedAsync()
+    {
+        var reservation = await ReservationService.GetReservationById(ReservationId);
+        var projection = await MovieServiceClient.GetProjectionById(reservation.ProjectionId);
+
+        var movie = await MovieServiceClient.GetMovieById(projection.MovieId);
+        var MovieName = movie.Title;
+
+        foreach (var item in reservation.SeatId)
+        {
+            seatDetails.Add(await CinemaServiceClient.GetSeatInfo(item));
+        }
+        FormattedSeats = string.Join(" | ", seatDetails);
+
+        var user = await ReservationService.GetUserById(reservation.UserId);
+
+        UserEmail = user.Email;
+    }
+
+    private async Task ConfirmReservationFix()
+    {
+        // await ReservationService.ConfirmReservation(ReservationId);
+        // ShowSuccessMessage = true;
+    }
+}

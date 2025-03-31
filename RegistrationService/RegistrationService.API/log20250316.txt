@@ -1,0 +1,359 @@
+2025-03-16 09:13:58.939 +01:00 [INF] Registered 7 endpoints in 248 milliseconds.
+2025-03-16 09:13:59.153 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-16 09:13:59.154 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-16 09:13:59.159 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-16 09:13:59.278 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 09:13:59.279 +01:00 [INF] Hosting environment: Development
+2025-03-16 09:13:59.281 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-16 09:14:05.569 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-16 09:14:05.697 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 129.5226ms
+2025-03-16 09:14:05.714 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-16 09:14:09.541 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-16 09:14:09.556 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 14.8515ms
+2025-03-16 09:14:09.574 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-16 09:14:09.623 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 48.3784ms
+2025-03-16 09:14:09.737 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 09:14:09.748 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 10.4904ms
+2025-03-16 09:14:09.783 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-16 09:14:09.832 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.3224ms
+2025-03-16 09:14:09.969 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-16 09:14:10.003 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 34.5982ms
+2025-03-16 09:15:23.460 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 206
+2025-03-16 09:15:23.464 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-16 09:15:23.562 +01:00 [INF] Handling CreateReservationCommand
+2025-03-16 09:15:23.564 +01:00 [INF] Property UserId : "da47275b-722e-462f-bdeb-08dd62f4ce16"
+2025-03-16 09:15:23.567 +01:00 [INF] Property SeatIds : ["0c9f1e5a-7ed9-42e7-c8e4-08dd62f2de6d","8ccb354d-9d02-46d7-c8e5-08dd62f2de6d"]
+2025-03-16 09:15:23.571 +01:00 [INF] Property ProjectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-16 09:15:24.576 +01:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 1004 ms
+2025-03-16 09:15:24.584 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-16 09:15:24.598 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 1137.6096ms
+2025-03-16 09:16:05.980 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7275/Reservation/DeleteBB657E46-8713-4CFE-6941-08DD62F52E2E - null null
+2025-03-16 09:16:05.984 +01:00 [INF] Executing endpoint 'HTTP: DELETE /Reservation/Delete{Id:Guid}'
+2025-03-16 09:16:05.990 +01:00 [INF] Handling DeleteReservationCommand
+2025-03-16 09:16:05.992 +01:00 [INF] Property Id : "bb657e46-8713-4cfe-6941-08dd62f52e2e"
+2025-03-16 09:16:06.433 +01:00 [INF] Handled DeleteReservationCommand with Ardalis.Result.Result`1[System.String] in 439 ms
+2025-03-16 09:16:06.436 +01:00 [INF] Executed endpoint 'HTTP: DELETE /Reservation/Delete{Id:Guid}'
+2025-03-16 09:16:06.437 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7275/Reservation/DeleteBB657E46-8713-4CFE-6941-08DD62F52E2E - 204 null null 457.1809ms
+2025-03-16 09:16:34.770 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-16 09:16:34.778 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-16 09:16:34.781 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-16 09:16:34.782 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-16 09:16:34.819 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 35 ms
+2025-03-16 09:16:34.821 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-16 09:16:34.822 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 51.6353ms
+2025-03-16 09:17:02.475 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:17:02.479 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:17:02.534 +01:00 [INF] Handling UpdateReservationCommand
+2025-03-16 09:17:02.535 +01:00 [INF] Property Id : "5b944d70-36b4-4caa-fe7e-08dd6462b3a1"
+2025-03-16 09:17:02.537 +01:00 [INF] Property reservationStatus : "Confirmed"
+2025-03-16 09:17:02.563 +01:00 [INF] Handled UpdateReservationCommand with Ardalis.Result.Result in 25 ms
+2025-03-16 09:17:02.569 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:17:02.572 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 200 null application/json; charset=utf-8 97.2734ms
+2025-03-16 09:17:19.451 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:17:19.456 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:17:19.458 +01:00 [INF] Handling UpdateReservationCommand
+2025-03-16 09:17:19.459 +01:00 [INF] Property Id : "5b944d70-36b4-4caa-fe7e-08dd6462b3a1"
+2025-03-16 09:17:19.460 +01:00 [INF] Property reservationStatus : "2"
+2025-03-16 09:17:19.491 +01:00 [INF] Handled UpdateReservationCommand with Ardalis.Result.Result in 29 ms
+2025-03-16 09:17:19.493 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:17:19.495 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 200 null application/json; charset=utf-8 43.4052ms
+2025-03-16 09:17:33.868 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:17:33.877 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:17:33.883 +01:00 [INF] Handling UpdateReservationCommand
+2025-03-16 09:17:33.884 +01:00 [INF] Property Id : "5b944d70-36b4-4caa-fe7e-08dd6462b3a1"
+2025-03-16 09:17:33.885 +01:00 [INF] Property reservationStatus : "Confirmed"
+2025-03-16 09:17:33.922 +01:00 [INF] Handled UpdateReservationCommand with Ardalis.Result.Result in 35 ms
+2025-03-16 09:17:33.925 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:17:33.932 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 200 null application/json; charset=utf-8 63.9641ms
+2025-03-16 09:20:26.536 +01:00 [INF] Registered 7 endpoints in 259 milliseconds.
+2025-03-16 09:20:26.732 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-16 09:20:26.734 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-16 09:20:26.739 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-16 09:20:26.829 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 09:20:26.833 +01:00 [INF] Hosting environment: Development
+2025-03-16 09:20:26.833 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-16 09:20:29.145 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-16 09:20:29.262 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 118.8392ms
+2025-03-16 09:20:29.277 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-16 09:20:37.030 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:20:37.035 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:20:37.116 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:20:37.118 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 87.9867ms
+2025-03-16 09:20:46.906 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:20:46.910 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:20:46.921 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:20:46.922 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 15.8291ms
+2025-03-16 09:22:18.026 +01:00 [INF] Registered 7 endpoints in 210 milliseconds.
+2025-03-16 09:22:18.198 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-16 09:22:18.200 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-16 09:22:18.204 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-16 09:22:18.294 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 09:22:18.296 +01:00 [INF] Hosting environment: Development
+2025-03-16 09:22:18.297 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-16 09:22:20.696 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-16 09:22:20.819 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 124.588ms
+2025-03-16 09:22:20.831 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-16 09:22:23.602 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:22:23.607 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:22:23.674 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:22:23.677 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 74.4798ms
+2025-03-16 09:22:34.273 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:22:34.279 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:22:34.282 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:22:34.288 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 15.4708ms
+2025-03-16 09:22:53.217 +01:00 [INF] Registered 7 endpoints in 256 milliseconds.
+2025-03-16 09:22:53.421 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-16 09:22:53.422 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-16 09:22:53.428 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-16 09:22:53.985 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 09:22:53.986 +01:00 [INF] Hosting environment: Development
+2025-03-16 09:22:53.987 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-16 09:22:57.350 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:22:57.389 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:22:57.486 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:22:57.489 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 140.1054ms
+2025-03-16 09:22:59.019 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:22:59.033 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:22:59.038 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:22:59.040 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 21.8798ms
+2025-03-16 09:24:35.004 +01:00 [INF] Registered 7 endpoints in 227 milliseconds.
+2025-03-16 09:24:35.177 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-16 09:24:35.178 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-16 09:24:35.182 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-16 09:24:35.263 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 09:24:35.265 +01:00 [INF] Hosting environment: Development
+2025-03-16 09:24:35.265 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-16 09:24:40.042 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:24:40.070 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:24:40.149 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:24:40.152 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 110.8678ms
+2025-03-16 09:24:42.140 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:24:42.147 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:24:42.151 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:24:42.156 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 15.4773ms
+2025-03-16 09:24:58.066 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:24:58.070 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:24:58.086 +01:00 [INF] Handling UpdateReservationCommand
+2025-03-16 09:24:58.087 +01:00 [INF] Property Id : "5b944d70-36b4-4caa-fe7e-08dd6462b3a1"
+2025-03-16 09:24:58.089 +01:00 [INF] Property reservationStatus : "2"
+2025-03-16 09:24:59.548 +01:00 [INF] Handled UpdateReservationCommand with Ardalis.Result.Result in 1457 ms
+2025-03-16 09:24:59.554 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:24:59.562 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 200 null application/json; charset=utf-8 1495.7172ms
+2025-03-16 09:28:24.727 +01:00 [INF] Registered 7 endpoints in 231 milliseconds.
+2025-03-16 09:28:24.927 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-16 09:28:24.928 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-16 09:28:24.935 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-16 09:28:25.466 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 09:28:25.467 +01:00 [INF] Hosting environment: Development
+2025-03-16 09:28:25.468 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-16 09:28:31.842 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:28:31.868 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:28:31.947 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:28:31.951 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 109.9122ms
+2025-03-16 09:28:40.308 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:28:40.312 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:28:40.315 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:28:40.316 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 7.7081ms
+2025-03-16 09:31:54.837 +01:00 [INF] Registered 7 endpoints in 268 milliseconds.
+2025-03-16 09:31:55.063 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-16 09:31:55.065 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-16 09:31:55.071 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-16 09:31:55.177 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 09:31:55.180 +01:00 [INF] Hosting environment: Development
+2025-03-16 09:31:55.181 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-16 09:32:03.542 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:32:03.578 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:32:03.665 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:32:03.669 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 127.9404ms
+2025-03-16 09:32:08.485 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:32:08.488 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:32:08.490 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:32:08.492 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 6.4746ms
+2025-03-16 09:32:15.567 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:32:15.571 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:32:15.580 +01:00 [INF] Handling UpdateReservationCommand
+2025-03-16 09:32:15.581 +01:00 [INF] Property Id : "5b944d70-36b4-4caa-fe7e-08dd6462b3a1"
+2025-03-16 09:32:15.582 +01:00 [INF] Property reservationStatus : "Confirmed"
+2025-03-16 09:32:16.583 +01:00 [INF] Handled UpdateReservationCommand with Ardalis.Result.Result in 1000 ms
+2025-03-16 09:32:16.589 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:32:16.600 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 200 null application/json; charset=utf-8 1033.6513ms
+2025-03-16 09:32:27.318 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:32:27.321 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:32:27.323 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:32:27.327 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 8.9227ms
+2025-03-16 09:33:37.943 +01:00 [INF] Registered 7 endpoints in 223 milliseconds.
+2025-03-16 09:33:38.129 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-16 09:33:38.130 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-16 09:33:38.135 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-16 09:33:38.216 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 09:33:38.218 +01:00 [INF] Hosting environment: Development
+2025-03-16 09:33:38.220 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-16 09:33:44.289 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:33:44.318 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:33:44.382 +01:00 [INF] Handling UpdateReservationCommand
+2025-03-16 09:33:44.385 +01:00 [INF] Property Id : "5b944d70-36b4-4caa-fe7e-08dd6462b3a1"
+2025-03-16 09:33:44.386 +01:00 [INF] Property reservationStatus : "NotConfirmed"
+2025-03-16 09:33:45.352 +01:00 [INF] Handled UpdateReservationCommand with Ardalis.Result.Result in 965 ms
+2025-03-16 09:33:45.361 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:33:45.371 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 200 null application/json; charset=utf-8 1083.9073ms
+2025-03-16 09:33:54.332 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:33:54.336 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:33:54.339 +01:00 [INF] Handling UpdateReservationCommand
+2025-03-16 09:33:54.342 +01:00 [INF] Property Id : "5b944d70-36b4-4caa-fe7e-08dd6462b3a1"
+2025-03-16 09:33:54.343 +01:00 [INF] Property reservationStatus : "Confirmed"
+2025-03-16 09:33:54.426 +01:00 [INF] Handled UpdateReservationCommand with Ardalis.Result.Result in 80 ms
+2025-03-16 09:33:54.428 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:33:54.429 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 200 null application/json; charset=utf-8 97.4096ms
+2025-03-16 09:34:01.377 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 53
+2025-03-16 09:34:01.380 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:34:01.383 +01:00 [INF] Handling UpdateReservationCommand
+2025-03-16 09:34:01.386 +01:00 [INF] Property Id : "5b944d70-36b4-4caa-fe7e-08dd6462b3a1"
+2025-03-16 09:34:01.387 +01:00 [INF] Property reservationStatus : "NotConfirmed"
+2025-03-16 09:34:01.407 +01:00 [INF] Handled UpdateReservationCommand with Ardalis.Result.Result in 19 ms
+2025-03-16 09:34:01.409 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:34:01.410 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 200 null application/json; charset=utf-8 32.9263ms
+2025-03-16 09:34:16.867 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 61
+2025-03-16 09:34:16.872 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:34:16.888 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 09:34:16.889 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 21.9505ms
+2025-03-16 17:14:23.354 +01:00 [INF] Registered 7 endpoints in 222 milliseconds.
+2025-03-16 17:14:23.585 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-16 17:14:23.587 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-16 17:14:23.591 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-16 17:14:23.687 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 17:14:23.690 +01:00 [INF] Hosting environment: Development
+2025-03-16 17:14:23.692 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-16 17:14:26.923 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-16 17:14:27.117 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 197.4869ms
+2025-03-16 17:14:27.130 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-16 17:14:30.508 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-16 17:14:30.532 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 24.3288ms
+2025-03-16 17:14:30.549 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-16 17:14:30.593 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 43.5342ms
+2025-03-16 17:14:30.723 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 17:14:30.733 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 10.04ms
+2025-03-16 17:14:30.770 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-16 17:14:30.830 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.6166ms
+2025-03-16 17:14:31.033 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-16 17:14:31.082 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 49.7062ms
+2025-03-16 17:15:07.537 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 128
+2025-03-16 17:15:07.543 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:15:07.635 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:15:07.638 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 400 null application/problem+json; charset=utf-8 100.7571ms
+2025-03-16 17:15:23.692 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 166
+2025-03-16 17:15:23.696 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:15:23.729 +01:00 [INF] Handling CreateReservationCommand
+2025-03-16 17:15:23.731 +01:00 [INF] Property UserId : "4f666c3f-6f17-4ec8-bdec-08dd62f4ce16"
+2025-03-16 17:15:23.734 +01:00 [INF] Property SeatIds : ["fc0f55f7-825a-4046-c8d7-08dd62f2de6d"]
+2025-03-16 17:15:23.738 +01:00 [INF] Property ProjectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-16 17:15:24.697 +01:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 957 ms
+2025-03-16 17:15:24.704 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:15:24.712 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 1020.341ms
+2025-03-16 17:15:33.982 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 166
+2025-03-16 17:15:33.987 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:15:33.989 +01:00 [INF] Handling CreateReservationCommand
+2025-03-16 17:15:33.991 +01:00 [INF] Property UserId : "4f666c3f-6f17-4ec8-bdec-08dd62f4ce16"
+2025-03-16 17:15:33.992 +01:00 [INF] Property SeatIds : ["fc0f55f7-825a-4046-c8d7-08dd62f2de6d"]
+2025-03-16 17:15:33.994 +01:00 [INF] Property ProjectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-16 17:15:34.086 +01:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 90 ms
+2025-03-16 17:15:34.088 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:15:34.090 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 108.7461ms
+2025-03-16 17:15:59.168 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 117
+2025-03-16 17:15:59.194 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:15:59.204 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:15:59.206 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 400 null application/problem+json; charset=utf-8 37.7261ms
+2025-03-16 17:16:06.882 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 112
+2025-03-16 17:16:06.887 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:16:06.892 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:16:06.893 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 400 null application/problem+json; charset=utf-8 11.0433ms
+2025-03-16 17:16:14.190 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 111
+2025-03-16 17:16:14.194 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:16:14.200 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-16 17:16:14.201 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 400 null application/problem+json; charset=utf-8 11.8722ms
+2025-03-16 17:18:39.054 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7275/Reservation/DeleteE8DDFC24-FBC0-4B10-F7DD-08DD64A5C1F5 - null null
+2025-03-16 17:18:39.058 +01:00 [INF] Executing endpoint 'HTTP: DELETE /Reservation/Delete{Id:Guid}'
+2025-03-16 17:18:39.064 +01:00 [INF] Handling DeleteReservationCommand
+2025-03-16 17:18:39.065 +01:00 [INF] Property Id : "e8ddfc24-fbc0-4b10-f7dd-08dd64a5c1f5"
+2025-03-16 17:18:39.455 +01:00 [INF] Handled DeleteReservationCommand with Ardalis.Result.Result`1[System.String] in 389 ms
+2025-03-16 17:18:39.459 +01:00 [INF] Executed endpoint 'HTTP: DELETE /Reservation/Delete{Id:Guid}'
+2025-03-16 17:18:39.460 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7275/Reservation/DeleteE8DDFC24-FBC0-4B10-F7DD-08DD64A5C1F5 - 204 null null 405.9148ms
+2025-03-16 17:19:57.701 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 63
+2025-03-16 17:19:57.705 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 17:19:57.746 +01:00 [INF] Handling UpdateReservationCommand
+2025-03-16 17:19:57.748 +01:00 [INF] Property Id : "5b944d70-36b4-4caa-fe7e-08dd6462b3a1"
+2025-03-16 17:19:57.749 +01:00 [INF] Property reservationStatus : "NotConfirmed"
+2025-03-16 17:19:57.773 +01:00 [INF] Handled UpdateReservationCommand with Ardalis.Result.Result in 21 ms
+2025-03-16 17:19:57.778 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 17:19:57.779 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 200 null application/json; charset=utf-8 78.6477ms
+2025-03-16 17:20:05.032 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 63
+2025-03-16 17:20:05.039 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 17:20:05.042 +01:00 [INF] Handling UpdateReservationCommand
+2025-03-16 17:20:05.046 +01:00 [INF] Property Id : "5b944d70-36b4-4caa-fe7e-08dd6462b3a1"
+2025-03-16 17:20:05.047 +01:00 [INF] Property reservationStatus : "Confirmed"
+2025-03-16 17:20:05.083 +01:00 [INF] Handled UpdateReservationCommand with Ardalis.Result.Result in 35 ms
+2025-03-16 17:20:05.086 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 17:20:05.087 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 200 null application/json; charset=utf-8 55.0536ms
+2025-03-16 17:20:16.353 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 63
+2025-03-16 17:20:16.358 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 17:20:16.361 +01:00 [INF] Handling UpdateReservationCommand
+2025-03-16 17:20:16.362 +01:00 [INF] Property Id : "5b944d70-36b4-4caa-fe7e-08dd6462b3a1"
+2025-03-16 17:20:16.363 +01:00 [INF] Property reservationStatus : "NotConfirmed"
+2025-03-16 17:20:16.396 +01:00 [INF] Handled UpdateReservationCommand with Ardalis.Result.Result in 32 ms
+2025-03-16 17:20:16.398 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 17:20:16.400 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 200 null application/json; charset=utf-8 47.131ms
+2025-03-16 17:20:25.454 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7275/Reservation/Update - application/json 64
+2025-03-16 17:20:25.476 +01:00 [INF] Executing endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 17:20:25.483 +01:00 [INF] Executed endpoint 'HTTP: PUT /Reservation/Update'
+2025-03-16 17:20:25.484 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7275/Reservation/Update - 400 null application/problem+json; charset=utf-8 29.8546ms
+2025-03-16 17:20:45.656 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-16 17:20:45.661 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-16 17:20:45.670 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-16 17:20:45.672 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-16 17:20:45.703 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 29 ms
+2025-03-16 17:20:45.706 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-16 17:20:45.707 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 51.2518ms
+2025-03-16 17:21:15.804 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Users - application/json 60
+2025-03-16 17:21:15.808 +01:00 [INF] Executing endpoint 'HTTP: POST /Users'
+2025-03-16 17:21:15.820 +01:00 [INF] Handling CreateUserCommand
+2025-03-16 17:21:15.821 +01:00 [INF] Property Email : user1@email.com
+2025-03-16 17:21:15.823 +01:00 [INF] Property PhoneNumber : 123456789
+2025-03-16 17:21:15.888 +01:00 [INF] Handled CreateUserCommand with Ardalis.Result.Result`1[System.Guid] in 63 ms
+2025-03-16 17:21:15.891 +01:00 [INF] Executed endpoint 'HTTP: POST /Users'
+2025-03-16 17:21:15.892 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Users - 204 null null 87.8314ms
+2025-03-16 17:21:33.290 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Users - application/json 61
+2025-03-16 17:21:33.300 +01:00 [INF] Executing endpoint 'HTTP: POST /Users'
+2025-03-16 17:21:33.305 +01:00 [INF] Handling CreateUserCommand
+2025-03-16 17:21:33.307 +01:00 [INF] Property Email : user20@email.com
+2025-03-16 17:21:33.308 +01:00 [INF] Property PhoneNumber : 123456789
+2025-03-16 17:21:33.344 +01:00 [INF] Handled CreateUserCommand with Ardalis.Result.Result`1[System.Guid] in 34 ms
+2025-03-16 17:21:33.347 +01:00 [INF] Executed endpoint 'HTTP: POST /Users'
+2025-03-16 17:21:33.349 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Users - 200 null application/json; charset=utf-8 61.0908ms
+2025-03-16 17:22:55.631 +01:00 [INF] Registered 7 endpoints in 197 milliseconds.
+2025-03-16 17:22:55.823 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-16 17:22:55.824 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-16 17:22:55.831 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-16 17:22:55.916 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 17:22:55.918 +01:00 [INF] Hosting environment: Development
+2025-03-16 17:22:55.920 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-16 17:23:00.562 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Users - application/json 61
+2025-03-16 17:23:00.589 +01:00 [INF] Executing endpoint 'HTTP: POST /Users'
+2025-03-16 17:23:00.647 +01:00 [INF] Handling CreateUserCommand
+2025-03-16 17:23:00.649 +01:00 [INF] Property Email : user20@email.com
+2025-03-16 17:23:00.650 +01:00 [INF] Property PhoneNumber : 123456789
+2025-03-16 17:23:01.532 +01:00 [INF] Handled CreateUserCommand with Ardalis.Result.Result`1[System.Guid] in 880 ms
+2025-03-16 17:23:01.542 +01:00 [INF] Executed endpoint 'HTTP: POST /Users'
+2025-03-16 17:23:01.557 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Users - 400 null application/problem+json; charset=utf-8 990.654ms
+2025-03-16 17:23:35.283 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Users/GetByEmailuser14@email.com - null null
+2025-03-16 17:23:35.286 +01:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-03-16 17:23:35.296 +01:00 [INF] Handling GetByEmailCommand
+2025-03-16 17:23:35.298 +01:00 [INF] Property email : user14@email.com
+2025-03-16 17:23:35.414 +01:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 115 ms
+2025-03-16 17:23:35.421 +01:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-03-16 17:23:35.423 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Users/GetByEmailuser14@email.com - 200 null application/json; charset=utf-8 139.9841ms
+2025-03-16 17:25:24.041 +01:00 [INF] Registered 7 endpoints in 224 milliseconds.
+2025-03-16 17:25:24.226 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-16 17:25:24.227 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-16 17:25:24.233 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-16 17:25:24.318 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 17:25:24.320 +01:00 [INF] Hosting environment: Development
+2025-03-16 17:25:24.320 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API

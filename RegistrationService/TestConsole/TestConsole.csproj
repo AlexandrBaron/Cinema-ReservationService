@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cinema.WEB\Cinema.WEB.Client\Cinema.WEB.Client.csproj" />
+    <ProjectReference Include="..\Cinema.WEB\Cinema.WEB\Cinema.WEB.csproj" />
+    <ProjectReference Include="..\RegistrationService.API\RegistrationService.API.csproj" />
+    <ProjectReference Include="..\RegistrationService.Core\RegistrationService.Core.csproj" />
+    <ProjectReference Include="..\RegistrationService.Infrastructure\RegistrationService.Infrastructure.csproj" />
+    <ProjectReference Include="..\RegistrationService.UnitTests\RegistrationService.UnitTests.csproj" />
+    <ProjectReference Include="..\RegistrationService.UseCases\RegistrationService.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>

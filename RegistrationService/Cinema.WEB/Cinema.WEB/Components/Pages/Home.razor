@@ -1,0 +1,68 @@
+﻿@page "/"
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
+@using Cinema.WEB.Api;
+@using Cinema.Common.Entities.MovieService
+@inject MovieServiceHttpClient movieClient
+
+<PageTitle>Home</PageTitle>
+
+<div class="container">
+    <h1>KINO</h1>
+    <p>Aktuálně hrajeme</p>
+
+    <div class="movie-list">
+        @foreach (var movie in Movies)
+        {
+            <a href="/projections/@movie.Id" class="movie-card">
+                <span>@movie.Title</span>
+            </a>
+        }
+    </div>
+</div>
+
+@code {
+    private List<MovieEntity> Movies = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var activeMovies = await movieClient.GetAllMovies();
+        Movies = activeMovies.Where(m => m.IsPlaying == true).ToList();
+    }
+}
+
+
+<style>
+    .container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .movie-list {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .movie-card {
+        width: 150px;
+        height: 200px;
+        background-color: white;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        transition: background-color 0.3s;
+    }
+
+        .movie-card:hover {
+            background-color: lightgray;
+        }
+</style>

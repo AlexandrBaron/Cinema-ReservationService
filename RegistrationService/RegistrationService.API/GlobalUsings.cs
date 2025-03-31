@@ -1,0 +1,9 @@
+﻿global using Ardalis.ListStartupServices;
+global using Ardalis.SharedKernel;
+global using Cinema.Common.Entities.ReservationService;
+global using Cinema.Common.RequestModels.ReservationService;
+global using FastEndpoints;
+global using FastEndpoints.Swagger;
+global using MediatR;
+global using Serilog;
+global using Serilog.Extensions.Logging;

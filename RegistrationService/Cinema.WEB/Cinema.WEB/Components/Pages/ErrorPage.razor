@@ -1,0 +1,15 @@
+﻿@page "/ErrorPage";
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
+
+<h3>ErrorPage</h3>
+
+<p>Ups... něco se nepovedlo. Zkuste to za chvíli.</p>
+
+<button class="home-button" @onclick="ClickHome">Home</button>
+
+@code{
+	public void ClickHome(){
+		Navigation.NavigateTo("/");
+	}
+}

@@ -1,0 +1,391 @@
+2025-03-14 12:26:38.915 +01:00 [INF] Registered 7 endpoints in 233 milliseconds.
+2025-03-14 12:26:39.101 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-14 12:26:39.103 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-14 12:26:39.108 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-14 12:26:39.181 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-14 12:26:39.182 +01:00 [INF] Hosting environment: Development
+2025-03-14 12:26:39.183 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-14 12:28:03.293 +01:00 [INF] Registered 7 endpoints in 438 milliseconds.
+2025-03-14 12:28:03.642 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-14 12:28:03.643 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-14 12:28:03.649 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-14 12:28:04.600 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-14 12:28:04.601 +01:00 [INF] Hosting environment: Development
+2025-03-14 12:28:04.601 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-14 12:35:51.632 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-14 12:35:51.777 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 147.0255ms
+2025-03-14 12:35:51.791 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-14 12:35:54.700 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-14 12:35:54.711 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 10.9536ms
+2025-03-14 12:35:54.719 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-14 12:35:54.747 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 27.1531ms
+2025-03-14 12:35:54.816 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-14 12:35:54.824 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 7.8826ms
+2025-03-14 12:35:54.836 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-14 12:35:54.876 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.3077ms
+2025-03-14 12:35:54.948 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-14 12:35:54.973 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 24.678ms
+2025-03-14 12:36:06.415 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-14 12:36:06.421 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 5.6023ms
+2025-03-14 12:36:06.431 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-14 12:36:06.439 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 7.6998ms
+2025-03-14 12:36:06.535 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-14 12:36:06.546 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 10.4821ms
+2025-03-14 12:36:06.566 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-14 12:36:06.575 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.3455ms
+2025-03-14 12:36:06.667 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-14 12:36:06.676 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 9.1965ms
+2025-03-14 12:39:17.123 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/37CDAB9F-31E0-48DD-1E98-08DD6229E81A - null null
+2025-03-14 12:39:17.128 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 12:39:17.162 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 12:39:17.163 +01:00 [INF] Property projectionId : "37cdab9f-31e0-48dd-1e98-08dd6229e81a"
+2025-03-14 12:39:17.969 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 12:39:17.972 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RegistrationService.Infrastructure.Repositories.ReservationRepository.GetByProjectionId(Guid projectionId) in C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.Infrastructure\Repositories\ReservationRepository.cs:line 9
+   at RegistrationService.UseCases.Registrations.GetByProjectionId.GetOccupiedSeatsProjectionIdHandler.Handle(GetOccupiedSeatsProjectionIdCommand request, CancellationToken cancellationToken) in C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.UseCases\Reservations\GetOccupiedSeatsProjectionId\GetOccupiedSeatsProjectionIdHandler.cs:line 10
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at RegistrationService.API.Reservation.GetOccupiedSeatsProjectionId.GetOccupiedSeatsProjectionId.HandleAsync(GetOccupiedSeatsProjectionIdRequest req, CancellationToken ct) in C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API\Reservation\GetOccupiedSeatsProjectionId\GetOccupiedSeatsProjectionId.cs:line 16
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-14 12:39:18.001 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/37CDAB9F-31E0-48DD-1E98-08DD6229E81A - 500 null text/plain; charset=utf-8 877.7108ms
+2025-03-14 12:42:20.494 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 206
+2025-03-14 12:42:20.497 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-14 12:42:20.531 +01:00 [INF] Handling CreateReservationCommand
+2025-03-14 12:42:20.532 +01:00 [INF] Property UserId : "3e1288ba-c38a-41b2-a029-08dd62d74c8a"
+2025-03-14 12:42:20.534 +01:00 [INF] Property SeatIds : ["86534a7d-a7bd-48be-85ff-08dd6219792d","16f8a9ce-55ac-47e9-8600-08dd6219792d"]
+2025-03-14 12:42:20.537 +01:00 [INF] Property ProjectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 12:42:20.714 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-14 12:42:20.715 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Ardalis.Specification.EntityFrameworkCore.RepositoryBase`1.SaveChangesAsync(CancellationToken cancellationToken)
+   at Ardalis.Specification.EntityFrameworkCore.RepositoryBase`1.AddAsync(T entity, CancellationToken cancellationToken)
+   at RegistrationService.UseCases.Registrations.Create.CreateReservationHandler.Handle(CreateReservationCommand request, CancellationToken cancellationToken) in C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.UseCases\Reservations\Create\CreateReservationHandler.cs:line 21
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at RegistrationService.API.Reservation.Create.Create.HandleAsync(CreateReservationRequest req, CancellationToken ct) in C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API\Reservation\Create\Create.cs:line 19
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-14 12:42:20.726 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 500 null text/plain; charset=utf-8 231.9625ms
+2025-03-14 12:43:03.546 +01:00 [INF] Registered 7 endpoints in 194 milliseconds.
+2025-03-14 12:43:03.711 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-14 12:43:03.712 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-14 12:43:03.716 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-14 12:43:03.792 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-14 12:43:03.793 +01:00 [INF] Hosting environment: Development
+2025-03-14 12:43:03.794 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-14 12:43:06.957 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 206
+2025-03-14 12:43:06.980 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-14 12:43:07.030 +01:00 [INF] Handling CreateReservationCommand
+2025-03-14 12:43:07.032 +01:00 [INF] Property UserId : "3e1288ba-c38a-41b2-a029-08dd62d74c8a"
+2025-03-14 12:43:07.033 +01:00 [INF] Property SeatIds : ["86534a7d-a7bd-48be-85ff-08dd6219792d","16f8a9ce-55ac-47e9-8600-08dd6219792d"]
+2025-03-14 12:43:07.036 +01:00 [INF] Property ProjectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 12:43:07.702 +01:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 664 ms
+2025-03-14 12:43:07.708 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-14 12:43:07.715 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 758.6209ms
+2025-03-14 13:04:15.220 +01:00 [INF] Registered 7 endpoints in 188 milliseconds.
+2025-03-14 13:04:15.400 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-14 13:04:15.401 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-14 13:04:15.406 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-14 13:04:15.932 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-14 13:04:15.933 +01:00 [INF] Hosting environment: Development
+2025-03-14 13:04:15.934 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-14 13:04:17.854 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-14 13:04:17.960 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 106.8776ms
+2025-03-14 13:04:17.972 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-14 13:04:20.684 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-14 13:04:20.695 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 10.6106ms
+2025-03-14 13:04:20.703 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-14 13:04:20.736 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 32.5363ms
+2025-03-14 13:04:20.829 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-14 13:04:20.840 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 10.138ms
+2025-03-14 13:04:20.850 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-14 13:04:20.880 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.217ms
+2025-03-14 13:04:20.998 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-14 13:04:21.037 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 38.6474ms
+2025-03-14 13:05:07.997 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 13:05:08.000 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 13:05:08.031 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 13:05:08.033 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 13:05:23.529 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 13:05:23.531 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)
+ ---> System.ComponentModel.Win32Exception (0x89C5011B): Unknown error (0x89c5011b)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at RegistrationService.Infrastructure.Repositories.ReservationRepository.GetByProjectionId(Guid projectionId) in C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.Infrastructure\Repositories\ReservationRepository.cs:line 9
+   at RegistrationService.UseCases.Registrations.GetByProjectionId.GetOccupiedSeatsProjectionIdHandler.Handle(GetOccupiedSeatsProjectionIdCommand request, CancellationToken cancellationToken) in C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.UseCases\Reservations\GetOccupiedSeatsProjectionId\GetOccupiedSeatsProjectionIdHandler.cs:line 10
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at RegistrationService.API.Reservation.GetOccupiedSeatsProjectionId.GetOccupiedSeatsProjectionId.HandleAsync(GetOccupiedSeatsProjectionIdRequest req, CancellationToken ct) in C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API\Reservation\GetOccupiedSeatsProjectionId\GetOccupiedSeatsProjectionId.cs:line 16
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1983577829,State:0,Class:20
+2025-03-14 13:05:23.563 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 500 null text/plain; charset=utf-8 15566.4806ms
+2025-03-14 13:06:55.057 +01:00 [INF] Registered 7 endpoints in 213 milliseconds.
+2025-03-14 13:06:55.230 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-14 13:06:55.231 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-14 13:06:55.235 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-14 13:06:55.335 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-14 13:06:55.337 +01:00 [INF] Hosting environment: Development
+2025-03-14 13:06:55.338 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-14 13:06:56.918 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-14 13:06:57.034 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 117.8148ms
+2025-03-14 13:06:57.050 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-14 13:06:59.309 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 13:06:59.314 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 13:06:59.345 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 13:06:59.346 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 13:07:00.090 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 742 ms
+2025-03-14 13:07:00.095 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 13:07:00.102 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 793.0844ms
+2025-03-14 13:37:12.237 +01:00 [INF] Registered 7 endpoints in 273 milliseconds.
+2025-03-14 13:37:12.475 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-14 13:37:12.477 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-14 13:37:12.482 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-14 13:37:12.583 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-14 13:37:12.584 +01:00 [INF] Hosting environment: Development
+2025-03-14 13:37:12.585 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-14 13:37:58.731 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-14 13:37:58.842 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 112.1243ms
+2025-03-14 13:37:58.854 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-14 13:38:01.606 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-14 13:38:01.618 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 11.6201ms
+2025-03-14 13:38:01.627 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-14 13:38:01.656 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 28.6348ms
+2025-03-14 13:38:01.720 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-14 13:38:01.728 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 7.7782ms
+2025-03-14 13:38:01.739 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-14 13:38:01.764 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.3012ms
+2025-03-14 13:38:01.844 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-14 13:38:01.876 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 32.2012ms
+2025-03-14 13:38:22.521 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 128
+2025-03-14 13:38:22.525 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-14 13:38:22.596 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-14 13:38:22.599 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 400 null application/problem+json; charset=utf-8 77.6897ms
+2025-03-14 13:38:43.354 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 166
+2025-03-14 13:38:43.358 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-14 13:38:43.361 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-14 13:38:43.362 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 400 null application/problem+json; charset=utf-8 8.1047ms
+2025-03-14 13:38:53.324 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 166
+2025-03-14 13:38:53.330 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-14 13:38:53.339 +01:00 [INF] Handling CreateReservationCommand
+2025-03-14 13:38:53.340 +01:00 [INF] Property UserId : "45646aa9-feb1-4da8-bdea-08dd62f4ce16"
+2025-03-14 13:38:53.342 +01:00 [INF] Property SeatIds : ["9f600c44-df50-488e-c8d8-08dd62f2de6d"]
+2025-03-14 13:38:53.345 +01:00 [INF] Property ProjectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 13:38:54.172 +01:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 824 ms
+2025-03-14 13:38:54.178 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-14 13:38:54.186 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 862.026ms
+2025-03-14 13:39:36.667 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 13:39:36.670 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 13:39:36.674 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 13:39:36.674 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 13:39:37.012 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 336 ms
+2025-03-14 13:39:37.015 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 13:39:37.017 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 349.2269ms
+2025-03-14 13:43:23.280 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 13:43:23.283 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 13:43:23.285 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 13:43:23.286 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 13:43:23.304 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 17 ms
+2025-03-14 13:43:23.306 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 13:43:23.307 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 26.8421ms
+2025-03-14 14:07:27.074 +01:00 [INF] Registered 7 endpoints in 215 milliseconds.
+2025-03-14 14:07:27.244 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-14 14:07:27.245 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-14 14:07:27.249 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-14 14:07:27.340 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-14 14:07:27.341 +01:00 [INF] Hosting environment: Development
+2025-03-14 14:07:27.341 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-14 14:08:58.205 +01:00 [INF] Registered 7 endpoints in 194 milliseconds.
+2025-03-14 14:08:58.371 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-14 14:08:58.372 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-14 14:08:58.376 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-14 14:08:58.450 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-14 14:08:58.451 +01:00 [INF] Hosting environment: Development
+2025-03-14 14:08:58.452 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-14 14:09:01.302 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 14:09:01.327 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 14:09:01.358 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 14:09:01.359 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 14:09:02.034 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 674 ms
+2025-03-14 14:09:02.042 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 14:09:02.053 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 747.0287ms
+2025-03-14 14:10:09.798 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 14:10:09.801 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 14:10:09.803 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 14:10:09.804 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 14:10:09.848 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 43 ms
+2025-03-14 14:10:09.850 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 14:10:09.851 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 52.8518ms
+2025-03-14 14:11:29.755 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 14:11:29.757 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 14:11:29.759 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 14:11:29.760 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 14:11:29.771 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 9 ms
+2025-03-14 14:11:29.772 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 14:11:29.773 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 17.8885ms
+2025-03-14 15:12:37.544 +01:00 [INF] Registered 7 endpoints in 328 milliseconds.
+2025-03-14 15:12:37.844 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-14 15:12:37.845 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-14 15:12:37.851 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-14 15:12:38.013 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-14 15:12:38.014 +01:00 [INF] Hosting environment: Development
+2025-03-14 15:12:38.014 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-14 15:22:50.338 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 15:22:50.367 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:22:50.399 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 15:22:50.400 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 15:22:51.330 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 928 ms
+2025-03-14 15:22:51.338 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:22:51.353 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 1008.1979ms
+2025-03-14 15:23:38.643 +01:00 [INF] Registered 7 endpoints in 223 milliseconds.
+2025-03-14 15:23:38.850 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-14 15:23:38.851 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-14 15:23:38.857 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-14 15:23:39.626 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-14 15:23:39.627 +01:00 [INF] Hosting environment: Development
+2025-03-14 15:23:39.628 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-14 15:23:54.838 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 15:23:54.869 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:23:54.914 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 15:23:54.915 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 15:23:55.913 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 996 ms
+2025-03-14 15:23:55.923 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:23:55.936 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 1094.094ms
+2025-03-14 15:24:51.699 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 15:24:51.703 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:24:51.705 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 15:24:51.705 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 15:24:51.773 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 67 ms
+2025-03-14 15:24:51.775 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:24:51.777 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 77.1438ms
+2025-03-14 15:25:15.268 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 15:25:15.270 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:25:15.273 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 15:25:15.274 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 15:25:15.291 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 15 ms
+2025-03-14 15:25:15.293 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:25:15.294 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 26.3078ms
+2025-03-14 15:25:55.198 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 15:25:55.200 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:25:55.201 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 15:25:55.202 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 15:25:55.207 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 3 ms
+2025-03-14 15:25:55.209 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:25:55.211 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 13.008ms
+2025-03-14 15:27:48.459 +01:00 [INF] Registered 7 endpoints in 272 milliseconds.
+2025-03-14 15:27:48.679 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-14 15:27:48.681 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-14 15:27:48.687 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-14 15:27:48.781 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-14 15:27:48.782 +01:00 [INF] Hosting environment: Development
+2025-03-14 15:27:48.782 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-14 15:27:59.495 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 15:27:59.529 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:27:59.564 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 15:27:59.565 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 15:28:00.665 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 1098 ms
+2025-03-14 15:28:00.674 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:28:00.689 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 1189.3586ms
+2025-03-14 15:31:41.324 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-14 15:31:41.447 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 123.1463ms
+2025-03-14 15:31:41.452 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-14 15:31:44.225 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-14 15:31:44.237 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 11.1926ms
+2025-03-14 15:31:44.246 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-14 15:31:44.272 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 25.0527ms
+2025-03-14 15:31:44.360 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-14 15:31:44.375 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-14 15:31:44.384 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 23.8786ms
+2025-03-14 15:31:44.410 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.1058ms
+2025-03-14 15:31:44.513 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-14 15:31:44.569 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 55.8724ms
+2025-03-14 15:32:48.274 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-14 15:32:48.277 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:32:48.279 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-14 15:32:48.280 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-14 15:32:48.339 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 58 ms
+2025-03-14 15:32:48.341 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-14 15:32:48.342 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 68.2522ms

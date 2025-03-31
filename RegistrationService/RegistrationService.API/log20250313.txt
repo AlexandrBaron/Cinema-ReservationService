@@ -1,0 +1,231 @@
+2025-03-13 13:19:26.377 +01:00 [INF] Registered 7 endpoints in 193 milliseconds.
+2025-03-13 13:19:26.441 +01:00 [INF] No validators found in the system!
+2025-03-13 13:19:26.542 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-13 13:19:26.544 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-13 13:19:26.548 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-13 13:19:26.626 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 13:19:26.628 +01:00 [INF] Hosting environment: Development
+2025-03-13 13:19:26.629 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-13 13:19:28.318 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-13 13:19:28.459 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 141.3495ms
+2025-03-13 13:19:28.474 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-13 13:19:31.406 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-13 13:19:31.415 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 9.2912ms
+2025-03-13 13:19:31.425 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-13 13:19:31.451 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 26.1631ms
+2025-03-13 13:19:31.505 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-13 13:19:31.511 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 5.7388ms
+2025-03-13 13:19:31.532 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-13 13:19:31.571 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.5412ms
+2025-03-13 13:19:31.632 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-13 13:19:31.657 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 25.0294ms
+2025-03-13 13:19:49.060 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Users - application/json 59
+2025-03-13 13:19:49.064 +01:00 [INF] Executing endpoint 'HTTP: POST /Users'
+2025-03-13 13:19:49.107 +01:00 [INF] Handling CreateUserCommand
+2025-03-13 13:19:49.108 +01:00 [INF] Property Email : user@email.com
+2025-03-13 13:19:49.109 +01:00 [INF] Property PhoneNumber : 123456789
+2025-03-13 13:19:49.750 +01:00 [INF] Handled CreateUserCommand with Ardalis.Result.Result`1[System.Guid] in 640 ms
+2025-03-13 13:19:49.755 +01:00 [INF] Executed endpoint 'HTTP: POST /Users'
+2025-03-13 13:19:49.762 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Users - 200 null application/json; charset=utf-8 702.4119ms
+2025-03-13 13:20:00.540 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Users/GetByEmailuser@email.com - null null
+2025-03-13 13:20:00.543 +01:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-03-13 13:20:00.552 +01:00 [INF] Handling GetByEmailCommand
+2025-03-13 13:20:00.553 +01:00 [INF] Property email : user@email.com
+2025-03-13 13:20:00.773 +01:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 218 ms
+2025-03-13 13:20:00.778 +01:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-03-13 13:20:00.779 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Users/GetByEmailuser@email.com - 200 null application/json; charset=utf-8 238.778ms
+2025-03-13 13:20:34.593 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 128
+2025-03-13 13:20:34.597 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-13 13:20:34.607 +01:00 [INF] Handling CreateReservationCommand
+2025-03-13 13:20:34.609 +01:00 [INF] Property UserId : "e4c245da-cfb1-458c-5975-08dd622959b3"
+2025-03-13 13:20:34.611 +01:00 [INF] Property SeatIds : []
+2025-03-13 13:20:34.612 +01:00 [INF] Property ProjectionId : "00000000-0000-0000-0000-000000000000"
+2025-03-13 13:20:34.648 +01:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 35 ms
+2025-03-13 13:20:34.651 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-13 13:20:34.652 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 58.5657ms
+2025-03-13 13:23:23.764 +01:00 [INF] Registered 7 endpoints in 220 milliseconds.
+2025-03-13 13:23:23.843 +01:00 [INF] No validators found in the system!
+2025-03-13 13:23:23.958 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-13 13:23:23.960 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-13 13:23:23.965 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-13 13:23:24.055 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 13:23:24.056 +01:00 [INF] Hosting environment: Development
+2025-03-13 13:23:24.057 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-13 13:23:26.739 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-13 13:23:26.848 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 110.9796ms
+2025-03-13 13:23:26.861 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-13 13:23:29.646 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-13 13:23:29.656 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 10.1201ms
+2025-03-13 13:23:29.666 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-13 13:23:29.699 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 32.77ms
+2025-03-13 13:23:29.776 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-13 13:23:29.788 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 11.0732ms
+2025-03-13 13:23:29.800 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-13 13:23:29.834 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.9668ms
+2025-03-13 13:23:29.932 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-13 13:23:29.968 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 36.0233ms
+2025-03-13 13:23:47.894 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 128
+2025-03-13 13:23:47.898 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-13 13:23:47.948 +01:00 [INF] Handling CreateReservationCommand
+2025-03-13 13:23:47.949 +01:00 [INF] Property UserId : "e4c245da-cfb1-458c-5975-08dd622959b3"
+2025-03-13 13:23:47.950 +01:00 [INF] Property SeatIds : []
+2025-03-13 13:23:47.953 +01:00 [INF] Property ProjectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-13 13:23:48.713 +01:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 759 ms
+2025-03-13 13:23:48.720 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-13 13:23:48.728 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 833.9334ms
+2025-03-13 13:24:12.351 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7275/Reservation/Delete32402BF5-2914-43A9-4628-08DD6229749F - null null
+2025-03-13 13:24:12.354 +01:00 [INF] Executing endpoint 'HTTP: DELETE /Reservation/Delete{Id:Guid}'
+2025-03-13 13:24:12.358 +01:00 [INF] Handling DeleteReservationCommand
+2025-03-13 13:24:12.359 +01:00 [INF] Property Id : "32402bf5-2914-43a9-4628-08dd6229749f"
+2025-03-13 13:24:12.677 +01:00 [INF] Handled DeleteReservationCommand with Ardalis.Result.Result`1[System.String] in 316 ms
+2025-03-13 13:24:12.679 +01:00 [INF] Executed endpoint 'HTTP: DELETE /Reservation/Delete{Id:Guid}'
+2025-03-13 13:24:12.680 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7275/Reservation/Delete32402BF5-2914-43A9-4628-08DD6229749F - 204 null null 329.0355ms
+2025-03-13 13:24:23.319 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7275/Reservation/Delete05A8762E-7481-4590-1E97-08DD6229E81A - null null
+2025-03-13 13:24:23.323 +01:00 [INF] Executing endpoint 'HTTP: DELETE /Reservation/Delete{Id:Guid}'
+2025-03-13 13:24:23.326 +01:00 [INF] Handling DeleteReservationCommand
+2025-03-13 13:24:23.327 +01:00 [INF] Property Id : "05a8762e-7481-4590-1e97-08dd6229e81a"
+2025-03-13 13:24:23.346 +01:00 [INF] Handled DeleteReservationCommand with Ardalis.Result.Result`1[System.String] in 18 ms
+2025-03-13 13:24:23.348 +01:00 [INF] Executed endpoint 'HTTP: DELETE /Reservation/Delete{Id:Guid}'
+2025-03-13 13:24:23.349 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7275/Reservation/Delete05A8762E-7481-4590-1E97-08DD6229E81A - 204 null null 30.6973ms
+2025-03-13 13:24:43.703 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 202
+2025-03-13 13:24:43.707 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-13 13:24:43.716 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-13 13:24:43.718 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 400 null application/problem+json; charset=utf-8 14.2006ms
+2025-03-13 13:24:59.120 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 206
+2025-03-13 13:24:59.124 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-13 13:24:59.126 +01:00 [INF] Handling CreateReservationCommand
+2025-03-13 13:24:59.127 +01:00 [INF] Property UserId : "e4c245da-cfb1-458c-5975-08dd622959b3"
+2025-03-13 13:24:59.128 +01:00 [INF] Property SeatIds : ["00000000-0000-0000-0000-000000000001","00000000-0000-0000-0000-000000000002"]
+2025-03-13 13:24:59.132 +01:00 [INF] Property ProjectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-13 13:24:59.138 +01:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 5 ms
+2025-03-13 13:24:59.140 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-13 13:24:59.141 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 20.785ms
+2025-03-13 13:25:22.028 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-13 13:25:22.031 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-13 13:25:22.034 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-13 13:25:22.035 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-13 13:25:22.079 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 43 ms
+2025-03-13 13:25:22.081 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-13 13:25:22.083 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 54.6754ms
+2025-03-13 13:26:05.752 +01:00 [INF] Registered 7 endpoints in 194 milliseconds.
+2025-03-13 13:26:05.838 +01:00 [INF] No validators found in the system!
+2025-03-13 13:26:05.942 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-13 13:26:05.943 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-13 13:26:05.947 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-13 13:26:06.028 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 13:26:06.029 +01:00 [INF] Hosting environment: Development
+2025-03-13 13:26:06.029 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-13 13:26:10.730 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-13 13:26:10.839 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 110.2578ms
+2025-03-13 13:26:10.849 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-13 13:26:13.577 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-13 13:26:13.588 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 10.3819ms
+2025-03-13 13:26:13.596 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-13 13:26:13.628 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 32.0616ms
+2025-03-13 13:26:13.724 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-13 13:26:13.730 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 6.1606ms
+2025-03-13 13:26:13.734 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-13 13:26:13.765 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.0232ms
+2025-03-13 13:26:13.884 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-13 13:26:13.918 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 34.5466ms
+2025-03-13 13:26:47.196 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 206
+2025-03-13 13:26:47.199 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-13 13:26:47.246 +01:00 [INF] Handling CreateReservationCommand
+2025-03-13 13:26:47.247 +01:00 [INF] Property UserId : "00000000-0000-0000-0000-000000000000"
+2025-03-13 13:26:47.250 +01:00 [INF] Property SeatIds : ["00000000-0000-0000-0000-000000000003","00000000-0000-0000-0000-000000000004"]
+2025-03-13 13:26:47.252 +01:00 [INF] Property ProjectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-13 13:26:48.017 +01:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 763 ms
+2025-03-13 13:26:48.025 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-13 13:26:48.034 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 838.3035ms
+2025-03-13 13:27:11.778 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-13 13:27:11.782 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-13 13:27:11.785 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-13 13:27:11.786 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-13 13:27:12.042 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 254 ms
+2025-03-13 13:27:12.044 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-13 13:27:12.045 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 266.9956ms
+2025-03-13 13:28:20.958 +01:00 [INF] Registered 7 endpoints in 196 milliseconds.
+2025-03-13 13:28:21.020 +01:00 [INF] No validators found in the system!
+2025-03-13 13:28:21.116 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-13 13:28:21.118 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-13 13:28:21.124 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-13 13:28:21.198 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 13:28:21.199 +01:00 [INF] Hosting environment: Development
+2025-03-13 13:28:21.199 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-13 13:28:35.255 +01:00 [INF] Registered 7 endpoints in 587 milliseconds.
+2025-03-13 13:28:35.494 +01:00 [INF] No validators found in the system!
+2025-03-13 13:28:35.804 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-13 13:28:35.807 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-13 13:28:35.813 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-13 13:28:35.959 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 13:28:35.960 +01:00 [INF] Hosting environment: Development
+2025-03-13 13:28:35.960 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-13 13:28:37.471 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-13 13:28:37.660 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 192.9654ms
+2025-03-13 13:28:37.667 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-13 13:28:39.942 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-13 13:28:39.958 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 16.1889ms
+2025-03-13 13:28:39.966 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-13 13:28:40.015 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 49.1809ms
+2025-03-13 13:28:40.080 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-13 13:28:40.095 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 15.2541ms
+2025-03-13 13:28:40.106 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-13 13:28:40.145 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.5106ms
+2025-03-13 13:28:40.244 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-13 13:28:40.298 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 53.4064ms
+2025-03-13 13:28:48.645 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-13 13:28:48.651 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-13 13:28:48.706 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-13 13:28:48.708 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-13 13:29:39.007 +01:00 [INF] Registered 7 endpoints in 188 milliseconds.
+2025-03-13 13:29:39.075 +01:00 [INF] No validators found in the system!
+2025-03-13 13:29:39.173 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-13 13:29:39.175 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-13 13:29:39.180 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-13 13:29:39.254 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 13:29:39.256 +01:00 [INF] Hosting environment: Development
+2025-03-13 13:29:39.256 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-13 13:29:41.182 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-13 13:29:41.277 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 95.827ms
+2025-03-13 13:29:41.287 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-13 13:29:42.565 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-13 13:29:42.576 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 10.9289ms
+2025-03-13 13:29:42.579 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-13 13:29:46.657 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-13 13:29:46.666 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 8.0522ms
+2025-03-13 13:29:46.674 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-13 13:29:46.705 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 31.0665ms
+2025-03-13 13:29:46.758 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-13 13:29:46.764 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 5.3235ms
+2025-03-13 13:29:46.776 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-13 13:29:46.802 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.0565ms
+2025-03-13 13:29:46.871 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-13 13:29:46.900 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 29.353ms
+2025-03-13 13:29:54.085 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - null null
+2025-03-13 13:29:54.088 +01:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-13 13:29:54.118 +01:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-03-13 13:29:54.120 +01:00 [INF] Property projectionId : "00000000-0000-0000-0000-000000000001"
+2025-03-13 13:29:54.890 +01:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 768 ms
+2025-03-13 13:29:54.896 +01:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-03-13 13:29:54.903 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/00000000-0000-0000-0000-000000000001 - 200 null application/json; charset=utf-8 817.7853ms
+2025-03-13 13:34:15.729 +01:00 [INF] Registered 7 endpoints in 202 milliseconds.
+2025-03-13 13:34:15.794 +01:00 [INF] No validators found in the system!
+2025-03-13 13:34:15.889 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-13 13:34:15.890 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-13 13:34:15.894 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-13 13:34:15.967 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-13 13:34:15.969 +01:00 [INF] Hosting environment: Development
+2025-03-13 13:34:15.969 +01:00 [INF] Content root path: C:\Users\Alexandr.Baron\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-13 13:34:19.126 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-13 13:34:19.235 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 113.1556ms
+2025-03-13 13:34:19.247 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-13 13:34:21.641 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Swagger - null null
+2025-03-13 13:34:21.651 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Swagger - 302 0 null 10.3399ms
+2025-03-13 13:34:21.662 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-13 13:34:21.686 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 24.6146ms
+2025-03-13 13:34:21.746 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-13 13:34:21.751 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 4.9768ms
+2025-03-13 13:34:21.777 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-13 13:34:21.797 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.0557ms
+2025-03-13 13:34:21.862 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-13 13:34:21.891 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 29.0024ms

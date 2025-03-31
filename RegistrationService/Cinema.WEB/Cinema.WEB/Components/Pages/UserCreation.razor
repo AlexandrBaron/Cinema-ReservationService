@@ -1,0 +1,76 @@
+﻿@page "/UserCreation"
+@inject NavigationManager Navigation
+@using Cinema.WEB.Api;
+@inject ReservationServiceHttpClient UsersClient
+@rendermode InteractiveServer
+
+<PageTitle>Vytvoření účtu</PageTitle>
+
+<div class="container">
+    <h1>VYTVOŘENÍ ÚČTU</h1>
+
+    <table>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" @bind="Email" placeholder="zadejte email"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Telefonní číslo:</label></td>
+            <td><input type="tel" id="phone" @bind="PhoneNumber" placeholder="zadejte telefonní číslo"></td>
+        </tr>
+    </table>
+
+    <button class="save-button" @onclick="SaveUser">
+        Uložit
+    </button>
+
+</div>
+
+@code {
+    private string Email { get; set; } = "";
+    private int PhoneNumber { get; set; }
+
+    private async Task SaveUser()
+    {
+            await UsersClient.CreateUserUser(PhoneNumber, Email);
+            Navigation.NavigateTo("/");
+    }
+}
+
+<style>
+    .container {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    table {
+        margin: 20px auto;
+        border-collapse: collapse;
+        width: 50%;
+    }
+
+    td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+        padding: 5px;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: green;
+        border: none;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+</style>

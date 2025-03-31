@@ -1,0 +1,92 @@
+2025-03-18 08:10:29.132 +01:00 [INF] Registered 7 endpoints in 608 milliseconds.
+2025-03-18 08:10:29.633 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-18 08:10:29.635 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-18 08:10:29.641 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-18 08:10:29.749 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 08:10:29.750 +01:00 [INF] Hosting environment: Development
+2025-03-18 08:10:29.753 +01:00 [INF] Content root path: C:\Users\jan.hrabe1\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-18 11:04:18.023 +01:00 [INF] Registered 7 endpoints in 584 milliseconds.
+2025-03-18 11:04:18.487 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-18 11:04:18.489 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-18 11:04:18.544 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-18 11:04:18.589 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 11:04:18.590 +01:00 [INF] Hosting environment: Development
+2025-03-18 11:04:18.590 +01:00 [INF] Content root path: C:\Users\jan.hrabe1\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-18 11:15:25.569 +01:00 [INF] Registered 7 endpoints in 516 milliseconds.
+2025-03-18 11:15:26.040 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-18 11:15:26.042 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-18 11:15:26.093 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-18 11:15:26.149 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 11:15:26.150 +01:00 [INF] Hosting environment: Development
+2025-03-18 11:15:26.151 +01:00 [INF] Content root path: C:\Users\jan.hrabe1\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-18 11:15:44.458 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-18 11:15:44.665 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 215.2688ms
+2025-03-18 11:15:44.671 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-18 11:15:49.659 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger - null null
+2025-03-18 11:15:49.674 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger - 302 0 null 15.199ms
+2025-03-18 11:15:49.683 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-18 11:15:49.833 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 150.0109ms
+2025-03-18 11:15:49.841 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/swagger-ui.css - null null
+2025-03-18 11:15:49.844 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.css - null null
+2025-03-18 11:15:49.844 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-18 11:15:49.844 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/swagger-ui-bundle.js - null null
+2025-03-18 11:15:49.863 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-18 11:15:49.882 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 19.1446ms
+2025-03-18 11:15:49.890 +01:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-18 11:15:49.897 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.css - 200 218 text/css 53.0079ms
+2025-03-18 11:15:49.902 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-18 11:15:49.902 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-18 11:15:49.908 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/swagger-ui-standalone-preset.js - 200 230294 text/javascript 63.8877ms
+2025-03-18 11:15:49.908 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/swagger-ui.css - 200 152073 text/css 67.513ms
+2025-03-18 11:15:49.927 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-18 11:15:49.929 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/swagger-ui-bundle.js - 200 1452754 text/javascript 84.3489ms
+2025-03-18 11:15:49.939 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-18 11:15:50.031 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 92.0956ms
+2025-03-18 11:15:50.120 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-18 11:15:50.659 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 538.9244ms
+2025-03-18 11:16:13.148 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 164
+2025-03-18 11:16:13.154 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-18 11:16:13.214 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-18 11:16:13.215 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 400 null application/problem+json; charset=utf-8 67.2146ms
+2025-03-18 11:16:39.242 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 166
+2025-03-18 11:16:39.244 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-18 11:16:39.277 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-18 11:16:39.283 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 400 null application/problem+json; charset=utf-8 41.5352ms
+2025-03-18 11:20:40.897 +01:00 [INF] Registered 7 endpoints in 621 milliseconds.
+2025-03-18 11:20:41.229 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-18 11:20:41.230 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-18 11:20:41.268 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-18 11:20:41.306 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 11:20:41.306 +01:00 [INF] Hosting environment: Development
+2025-03-18 11:20:41.307 +01:00 [INF] Content root path: C:\Users\jan.hrabe1\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-18 12:23:55.656 +01:00 [INF] Registered 7 endpoints in 590 milliseconds.
+2025-03-18 12:23:56.183 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-18 12:23:56.184 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-18 12:23:56.220 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-18 12:23:56.263 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 12:23:56.264 +01:00 [INF] Hosting environment: Development
+2025-03-18 12:23:56.265 +01:00 [INF] Content root path: C:\Users\jan.hrabe1\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-18 12:42:49.633 +01:00 [INF] Registered 7 endpoints in 673 milliseconds.
+2025-03-18 12:42:50.070 +01:00 [INF] Now listening on: https://localhost:7275
+2025-03-18 12:42:50.073 +01:00 [INF] Now listening on: http://localhost:5120
+2025-03-18 12:42:50.123 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-18 12:42:50.187 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 12:42:50.188 +01:00 [INF] Hosting environment: Development
+2025-03-18 12:42:50.188 +01:00 [INF] Content root path: C:\Users\jan.hrabe1\source\repos\kino-reservation-service\RegistrationService\RegistrationService.API
+2025-03-18 12:43:15.493 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/ - null null
+2025-03-18 12:43:15.712 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/ - 404 0 null 227.2196ms
+2025-03-18 12:43:15.720 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/, Response status code: 404
+2025-03-18 12:43:19.386 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger - null null
+2025-03-18 12:43:19.402 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger - 302 0 null 15.9475ms
+2025-03-18 12:43:19.413 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-18 12:43:19.579 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 159.3059ms
+2025-03-18 12:43:19.635 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-18 12:43:19.636 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-18 12:43:19.664 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13798 application/javascript; charset=utf-8 28.6229ms
+2025-03-18 12:43:19.708 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.7529ms
+2025-03-18 12:43:19.815 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-18 12:43:20.516 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 700.1855ms
+2025-03-18 12:43:39.066 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Reservation - application/json 128
+2025-03-18 12:43:39.072 +01:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-03-18 12:43:39.167 +01:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-03-18 12:43:39.168 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Reservation - 400 null application/problem+json; charset=utf-8 105.0359ms

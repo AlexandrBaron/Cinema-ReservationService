@@ -1,0 +1,50 @@
+﻿@page "/Reservation/Confirm"
+@inject NavigationManager Navigation
+@using Cinema.WEB.Api
+@inject ReservationServiceHttpClient ReservationService
+@rendermode InteractiveServer
+
+<PageTitle>Potvrzení rezervace</PageTitle>
+
+<div class="container">
+    <h1>KINO</h1>
+    <h3>POTVRZENÍ REZERVACE</h3>
+
+    <div class="reservation-box">
+        @* <div class="reservation-details">
+            <div class="movie-title">@MovieName</div>
+            <div class="seat-info">
+                <strong>SEDADLA:</strong> @FormattedSeats
+            </div>
+            <div class="seat-info">
+                <strong>EMAIL:</strong> @UserEmail
+            </div>
+        </div> *@
+
+        @if (ShowSuccessMessage)
+        {
+            <div class="alert alert-success mt-3">
+                Rezervace úspěšně potvrzena!
+            </div>
+            <button class="btn btn-success mt-2" @onclick="@(() => Navigation.NavigateTo("/"))">
+                Zpět na hlavní stránku
+            </button>
+        }
+    </div>
+</div>
+
+@code {
+    [SupplyParameterFromQuery]
+    public string Token { get; set; }
+
+    private string MovieName = null;
+    private string FormattedSeats { get; set; } = "Žádné sedadlo";
+    private string UserEmail { get; set; } = "";
+    private bool ShowSuccessMessage { get; set; } = false;
+
+    protected async override Task OnInitializedAsync()
+    {
+          await ReservationService.ConfirmReservation(Token);
+          ShowSuccessMessage = true;
+    }
+}

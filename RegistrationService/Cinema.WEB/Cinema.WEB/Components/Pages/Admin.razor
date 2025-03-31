@@ -1,0 +1,323 @@
+﻿@page "/Admin"
+@using Cinema.WEB.Api
+@using Cinema.Common.RequestModels.MovieService
+@using Cinema.Common.Entities.CinemaService
+@using Cinema.Common.Entities.MovieService
+@inject MovieServiceHttpClient movieClient
+@inject CinemaServiceHttpClient cinemaClient
+@rendermode InteractiveServer
+
+<h2>KINO - admin page</h2>
+
+<div>
+    <button @onclick="@(() => aktivniMod = "filmy")" class="@GetTabClass("filmy")">FILMY</button>
+    <button @onclick="@(() => aktivniMod = "saly")" class="@GetTabClass("saly")">SÁLY</button>
+    <button @onclick="@(() => aktivniMod = "projekce")" class="@GetTabClass("projekce")">PROJEKCE</button>
+</div>
+
+@if (aktivniMod == "filmy")
+{
+    <div style="display: flex; flex-direction: row; gap: 20px; margin-top: 10px;">
+
+        <!-- LEVÁ ČÁST: seznam filmů -->
+        <div style="width: 800px; border: 1px solid black; height: 600px; overflow-y: auto;">
+            <table style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th style="width: 40%;">Id</th>
+                        <th style="width: 40%;">
+                            <input type="text" @bind="searchText" @bind:event="oninput" placeholder="Hledej..." style="width: 95%;" />
+                        </th>
+                        <th style="width: 20%;">Hraje se</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var movie in FilteredMovies)
+                    {
+                        <tr class="@GetRowClass(movie)" @onclick="@(() => SelectMovie(movie))">
+                            <td>@movie.Id</td>
+                            <td>@movie.Title</td>
+                            <td><input type="checkbox" checked="@movie.IsPlaying" disabled /></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        @if ((showEditPanel || showCreatePanel) && editableMovie is not null)
+        {
+            <div style="width: 450px; border: 1px solid black; padding: 15px;">
+                <table>
+                    @if (!isCreating)
+                    {
+                        <tr>
+                            <td><strong>Id</strong></td>
+                            <td>@editableMovie.Id</td>
+                        </tr>
+                    }
+                    <tr>
+                        <td>Název</td>
+                        <td><input @bind="editableMovie.Title" /></td>
+                    </tr>
+                    <tr>
+                        <td>Popis</td>
+                        <td><input @bind="editableMovie.Description" /></td>
+                    </tr>
+                    <tr>
+                        <td>Režisér</td>
+                        <td><input @bind="editableMovie.Director" /></td>
+                    </tr>
+                    <tr>
+                        <td>Obsazení</td>
+                        <td><input @bind="editableMovie.Cast" /></td>
+                    </tr>
+                    <tr>
+                        <td>Délka</td>
+                        <td><input type="number" @bind="editableMovie.DurationInMinutes" /></td>
+                    </tr>
+                    <tr>
+                        <td>Hraje se</td>
+                        <td><input type="checkbox" @bind="editableMovie.IsPlaying" /></td>
+                    </tr>
+                </table>
+
+                <button @onclick="SaveMovie" style="margin-top: 10px;">Uložit</button>
+            </div>
+        }
+        @if (showUpdateProjecitonPanel && editableMovie is not null)
+        { 
+            <div style ="width: 450px; border: 1px solid black; padding: 15px">
+
+                <table>
+                    <tr>
+                        <td><strong>Id</strong></td>
+                        <td>@editableMovie.Id</td>
+                    </tr>
+                    <tr>
+                        <td>Začátek</td>
+                        <td><input type="datetime-local" @bind="startTime" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td>Sál</td>
+                        <td>
+                            <select @bind="selectedHallId" class="form-control">
+                                <option value="">--Vyber sál --</option>
+                                @foreach(var hall in halls){
+                                    <option value="@hall.Id">@hall.Name</option>
+                                }
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <button @onclick="SaveProjection" style="margin-top: 10px;">Uložit</button>
+            </div>
+        }
+
+    </div>
+
+    <div style="margin-top: 10px;">
+        <button @onclick="OnUpdate" disabled="@(!IsMovieSelected)">Upravit</button>
+        <button @onclick="OnCreate">Vytvořit</button>
+        <button @onclick="OnDelete" disabled="@(!IsMovieSelected)">Smazat</button>
+        <button @onclick="OnProjecitonUpdate" disabled="@(!IsMovieSelected)">Přidat projekci</button>
+    </div>
+}
+else if (aktivniMod == "saly")
+{
+    <div style="margin-top: 20px;">
+        <h4>Záložka <b>SÁLY</b> (zatím prázdné)</h4>
+    </div>
+}
+else if (aktivniMod == "projekce")
+{
+    <div style="margin-top: 20px;">
+        <h4>Záložka <b>PROJEKCE</b> (zatím prázdné)</h4>
+    </div>
+}
+
+@code {
+    private string aktivniMod = "filmy";
+    private string searchText = string.Empty;
+
+    private List<MovieEntity> Movies = new();
+    private MovieEntity? selectedMovie;
+    private MovieEntity? editableMovie;
+    private CreateProjectionRequestBase? editableProjection;
+    private bool showEditPanel = false;
+    private bool showCreatePanel = false;
+    private bool showUpdateProjecitonPanel = false;
+    private bool isCreating = false;
+    private DateTime startTime = DateTime.Now;
+    private List<Hall> halls = new();
+    private Guid selectedHallId = Guid.Empty;
+
+    private IEnumerable<MovieEntity> FilteredMovies =>
+        string.IsNullOrWhiteSpace(searchText)
+            ? Movies
+            : Movies.Where(m => m.Title.Contains(searchText, StringComparison.OrdinalIgnoreCase));
+
+    protected override async Task OnInitializedAsync()
+    {
+        Movies = await movieClient.GetAllMovies();
+        halls = await cinemaClient.GetAllHalls();
+    }
+
+    private void SelectMovie(MovieEntity movie)
+    {
+        selectedMovie = movie;
+        showEditPanel = false;
+    }
+
+    private void OnUpdate()
+    {
+        if (selectedMovie is not null)
+        {
+            editableMovie = new MovieEntity
+                {
+                    Id = selectedMovie.Id,
+                    Title = selectedMovie.Title,
+                    Description = selectedMovie.Description,
+                    Director = selectedMovie.Director,
+                    Cast = selectedMovie.Cast,
+                    DurationInMinutes = selectedMovie.DurationInMinutes,
+                    IsPlaying = selectedMovie.IsPlaying
+                };
+
+            showCreatePanel = false;
+            showEditPanel = true;
+            showUpdateProjecitonPanel = false;
+            isCreating = false;
+        }
+    }
+
+    private void OnCreate()
+    {
+        //editableMovie = new MovieEntity();
+        showEditPanel = false;
+        showCreatePanel = true;
+        showUpdateProjecitonPanel = false;
+        isCreating = true;
+    }
+    private async Task OnDelete()
+    {
+        if(selectedMovie != null){
+            Guid Id = selectedMovie.Id;
+            await movieClient.DeleteMovie(Id);
+        }
+        Movies = await movieClient.GetAllMovies();
+    }
+
+    private void OnProjecitonUpdate()
+    {
+        editableMovie = new MovieEntity
+            {
+                Title = selectedMovie.Title,
+                Description = selectedMovie.Description,
+                Director = selectedMovie.Director,
+                Cast = selectedMovie.Cast,
+                DurationInMinutes = selectedMovie.DurationInMinutes,
+                IsPlaying = selectedMovie.IsPlaying
+            };
+        editableMovie.Id = selectedMovie.Id;
+        showUpdateProjecitonPanel = true;
+        showEditPanel = false;
+        showCreatePanel = false;
+        isCreating = false;
+    }
+
+    private async Task SaveProjection()
+    {
+        if (editableMovie is null)
+            return;
+
+        CreateProjectionRequestBase createProjection = new CreateProjectionRequestBase()
+        {
+                MovieId = selectedMovie.Id,
+                HallId = selectedHallId,
+                StartTime = startTime
+        };
+
+        await movieClient.CreateProjeciton(createProjection);
+    }
+
+    private async Task SaveMovie()
+    {
+        if (editableMovie is null)
+            return;
+
+        if (isCreating)
+        {
+            var command = new CreateMovieRequestBase
+                {
+                    Title = editableMovie.Title,
+                    Description = editableMovie.Description,
+                    Director = editableMovie.Director,
+                    Cast = editableMovie.Cast,
+                    DurationInMinutes = editableMovie.DurationInMinutes,
+                    IsPlaying = editableMovie.IsPlaying
+                };
+
+
+            await movieClient.CreateMovie(command);
+        }
+        else
+        {
+            var command = new MovieEntity
+                {
+                    Id = editableMovie.Id,
+                    Title = editableMovie.Title,
+                    Description = editableMovie.Description,
+                    Director = editableMovie.Director,
+                    Cast = editableMovie.Cast,
+                    DurationInMinutes = editableMovie.DurationInMinutes,
+                    IsPlaying = editableMovie.IsPlaying
+                };
+
+            
+
+
+            await movieClient.UpdateMovie(editableMovie.Id, command);
+        }
+
+        showEditPanel = false;
+        showCreatePanel = false;
+
+        Movies = await movieClient.GetAllMovies();
+    }
+
+    private string GetRowClass(MovieEntity movie)
+    {
+        return selectedMovie == movie ? "selected" : "";
+    }
+
+    private string GetTabClass(string tab)
+    {
+        return tab == aktivniMod ? "active-tab" : "";
+    }
+
+    private bool IsMovieSelected => selectedMovie is not null;
+}
+
+<style>
+    .selected {
+        background-color: #e0e0e0;
+    }
+
+    .active-tab {
+        font-weight: bold;
+        border-bottom: 2px solid black;
+    }
+
+    table tr:hover {
+        background-color: #f9f9f9;
+        cursor: pointer;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        margin-right: 10px;
+    }
+</style>
