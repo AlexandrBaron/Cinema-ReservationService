@@ -1,0 +1,730 @@
+2025-04-01 07:57:54.722 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-01 07:57:54.943 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 236.9098ms
+2025-04-01 16:58:18.707 +02:00 [INF] Registered 9 endpoints in 4 893 milliseconds.
+2025-04-01 16:58:19.518 +02:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-04-01 16:58:19.523 +02:00 [INF] Quartz Scheduler created
+2025-04-01 16:58:19.528 +02:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2025-04-01 16:58:19.532 +02:00 [INF] RAMJobStore initialized.
+2025-04-01 16:58:19.537 +02:00 [INF] Quartz Scheduler 3.14.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-04-01 16:58:19.548 +02:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-04-01 16:58:19.553 +02:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-04-01 16:58:19.595 +02:00 [INF] Adding 1 jobs, 1 triggers.
+2025-04-01 16:58:19.603 +02:00 [INF] Adding job: DEFAULT.DeleteExpiredReservationsJob
+2025-04-01 16:58:20.562 +02:00 [INF] Now listening on: https://localhost:7275
+2025-04-01 16:58:20.567 +02:00 [INF] Now listening on: http://localhost:5120
+2025-04-01 16:58:20.728 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-01 16:58:20.924 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 16:58:20.935 +02:00 [INF] Hosting environment: Development
+2025-04-01 16:58:20.937 +02:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2025-04-01 16:58:20.939 +02:00 [INF] Content root path: C:\Users\Alexa\source\repos\Cinema-ReservationService\RegistrationService\RegistrationService.API
+2025-04-01 17:07:36.219 +02:00 [INF] Registered 9 endpoints in 1 584 milliseconds.
+2025-04-01 17:07:36.757 +02:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-04-01 17:07:36.763 +02:00 [INF] Quartz Scheduler created
+2025-04-01 17:07:36.767 +02:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2025-04-01 17:07:36.770 +02:00 [INF] RAMJobStore initialized.
+2025-04-01 17:07:36.774 +02:00 [INF] Quartz Scheduler 3.14.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-04-01 17:07:36.778 +02:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-04-01 17:07:36.783 +02:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-04-01 17:07:36.816 +02:00 [INF] Adding 1 jobs, 1 triggers.
+2025-04-01 17:07:36.824 +02:00 [INF] Adding job: DEFAULT.DeleteExpiredReservationsJob
+2025-04-01 17:07:37.398 +02:00 [INF] Now listening on: https://localhost:7275
+2025-04-01 17:07:37.403 +02:00 [INF] Now listening on: http://localhost:5120
+2025-04-01 17:07:37.473 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-01 17:07:37.621 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 17:07:37.625 +02:00 [INF] Hosting environment: Development
+2025-04-01 17:07:37.628 +02:00 [INF] Content root path: C:\Users\Alexa\source\repos\Cinema-ReservationService\RegistrationService\RegistrationService.API
+2025-04-01 17:07:37.635 +02:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2025-04-01 17:23:29.031 +02:00 [INF] Registered 9 endpoints in 476 milliseconds.
+2025-04-01 17:23:29.207 +02:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-04-01 17:23:29.208 +02:00 [INF] Quartz Scheduler created
+2025-04-01 17:23:29.210 +02:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2025-04-01 17:23:29.212 +02:00 [INF] RAMJobStore initialized.
+2025-04-01 17:23:29.214 +02:00 [INF] Quartz Scheduler 3.14.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-04-01 17:23:29.215 +02:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-04-01 17:23:29.217 +02:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-04-01 17:23:29.229 +02:00 [INF] Adding 1 jobs, 1 triggers.
+2025-04-01 17:23:29.232 +02:00 [INF] Adding job: DEFAULT.DeleteExpiredReservationsJob
+2025-04-01 17:23:29.374 +02:00 [INF] Now listening on: https://localhost:7275
+2025-04-01 17:23:29.376 +02:00 [INF] Now listening on: http://localhost:5120
+2025-04-01 17:23:29.398 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-01 17:23:29.439 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 17:23:29.440 +02:00 [INF] Hosting environment: Development
+2025-04-01 17:23:29.442 +02:00 [INF] Content root path: C:\Users\Alexa\source\repos\Cinema-ReservationService\RegistrationService\RegistrationService.API
+2025-04-01 17:23:29.445 +02:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2025-04-01 17:31:00.368 +02:00 [INF] Registered 9 endpoints in 417 milliseconds.
+2025-04-01 17:31:00.563 +02:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-04-01 17:31:00.565 +02:00 [INF] Quartz Scheduler created
+2025-04-01 17:31:00.567 +02:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2025-04-01 17:31:00.569 +02:00 [INF] RAMJobStore initialized.
+2025-04-01 17:31:00.570 +02:00 [INF] Quartz Scheduler 3.14.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-04-01 17:31:00.572 +02:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-04-01 17:31:00.573 +02:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-04-01 17:31:00.582 +02:00 [INF] Adding 1 jobs, 1 triggers.
+2025-04-01 17:31:00.584 +02:00 [INF] Adding job: DEFAULT.DeleteExpiredReservationsJob
+2025-04-01 17:31:00.740 +02:00 [INF] Now listening on: https://localhost:7275
+2025-04-01 17:31:00.742 +02:00 [INF] Now listening on: http://localhost:5120
+2025-04-01 17:31:00.774 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-01 17:31:00.827 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 17:31:00.829 +02:00 [INF] Hosting environment: Development
+2025-04-01 17:31:00.831 +02:00 [INF] Content root path: C:\Users\Alexa\source\repos\Cinema-ReservationService\RegistrationService\RegistrationService.API
+2025-04-01 17:31:00.833 +02:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2025-04-01 17:31:16.078 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - null null
+2025-04-01 17:31:16.131 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:16.169 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 17:31:16.172 +02:00 [INF] Property projectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:31:17.559 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 1383 ms
+2025-04-01 17:31:17.573 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:17.587 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - 200 null application/json; charset=utf-8 1511.3537ms
+2025-04-01 17:31:18.130 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - null null
+2025-04-01 17:31:18.138 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:18.141 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 17:31:18.144 +02:00 [INF] Property projectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:31:18.222 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 75 ms
+2025-04-01 17:31:18.227 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:18.231 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - 200 null application/json; charset=utf-8 101.0784ms
+2025-04-01 17:31:19.335 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - null null
+2025-04-01 17:31:19.342 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:19.346 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 17:31:19.349 +02:00 [INF] Property projectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:31:19.385 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 32 ms
+2025-04-01 17:31:19.388 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:19.391 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - 200 null application/json; charset=utf-8 55.8701ms
+2025-04-01 17:31:26.759 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - null null
+2025-04-01 17:31:26.764 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:26.766 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 17:31:26.768 +02:00 [INF] Property projectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:31:26.783 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 13 ms
+2025-04-01 17:31:26.786 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:26.789 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - 200 null application/json; charset=utf-8 29.3582ms
+2025-04-01 17:31:27.903 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - null null
+2025-04-01 17:31:27.910 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:27.913 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 17:31:27.915 +02:00 [INF] Property projectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:31:27.929 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 11 ms
+2025-04-01 17:31:27.932 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:27.934 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - 200 null application/json; charset=utf-8 31.2031ms
+2025-04-01 17:31:33.107 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - null null
+2025-04-01 17:31:33.115 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:33.117 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 17:31:33.119 +02:00 [INF] Property projectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:31:33.135 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 13 ms
+2025-04-01 17:31:33.142 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:33.146 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - 200 null application/json; charset=utf-8 38.8268ms
+2025-04-01 17:31:34.372 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - null null
+2025-04-01 17:31:34.378 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:34.380 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 17:31:34.381 +02:00 [INF] Property projectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:31:34.394 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 10 ms
+2025-04-01 17:31:34.396 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:31:34.399 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - 200 null application/json; charset=utf-8 26.5554ms
+2025-04-01 17:31:48.129 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@gmail.com - null null
+2025-04-01 17:31:48.143 +02:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:31:48.163 +02:00 [INF] Handling GetByEmailCommand
+2025-04-01 17:31:48.166 +02:00 [INF] Property email : user1@gmail.com
+2025-04-01 17:31:48.223 +02:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 53 ms
+2025-04-01 17:31:48.233 +02:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:31:48.236 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@gmail.com - 200 null application/json; charset=utf-8 106.4331ms
+2025-04-01 17:32:25.388 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger - null null
+2025-04-01 17:32:25.551 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger - 302 0 null 163.0246ms
+2025-04-01 17:32:25.557 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-04-01 17:32:25.664 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 106.8979ms
+2025-04-01 17:32:25.674 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-01 17:32:25.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-04-01 17:32:25.699 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 24.6213ms
+2025-04-01 17:32:25.773 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.1098ms
+2025-04-01 17:32:25.986 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-04-01 17:32:26.821 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 835.0593ms
+2025-04-01 17:32:36.297 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Users - application/json 54
+2025-04-01 17:32:36.303 +02:00 [INF] Executing endpoint 'HTTP: POST /Users'
+2025-04-01 17:32:36.339 +02:00 [INF] Handling CreateUserCommand
+2025-04-01 17:32:36.340 +02:00 [INF] Property Email : New Email
+2025-04-01 17:32:36.345 +02:00 [INF] Property PhoneNumber : 123456789
+2025-04-01 17:32:36.384 +02:00 [INF] Handled CreateUserCommand with Ardalis.Result.Result`1[System.Guid] in 36 ms
+2025-04-01 17:32:36.393 +02:00 [INF] Executed endpoint 'HTTP: POST /Users'
+2025-04-01 17:32:36.396 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Users - 400 null application/problem+json; charset=utf-8 98.8825ms
+2025-04-01 17:33:02.060 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/Users/GetByEmailuser1@email.com - null null
+2025-04-01 17:33:02.068 +02:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:33:02.071 +02:00 [INF] Handling GetByEmailCommand
+2025-04-01 17:33:02.074 +02:00 [INF] Property email : user1@email.com
+2025-04-01 17:33:02.132 +02:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 55 ms
+2025-04-01 17:33:02.135 +02:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:33:02.137 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/Users/GetByEmailuser1@email.com - 200 null application/json; charset=utf-8 76.755ms
+2025-04-01 17:33:12.106 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - null null
+2025-04-01 17:33:12.111 +02:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:33:12.114 +02:00 [INF] Handling GetByEmailCommand
+2025-04-01 17:33:12.116 +02:00 [INF] Property email : user1@email.com
+2025-04-01 17:33:12.131 +02:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 13 ms
+2025-04-01 17:33:12.134 +02:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:33:12.137 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - 200 null application/json; charset=utf-8 30.7188ms
+2025-04-01 17:33:21.006 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7275/Reservation - application/json; charset=utf-8 null
+2025-04-01 17:33:21.017 +02:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-04-01 17:33:21.019 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - null null
+2025-04-01 17:33:21.021 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - null null
+2025-04-01 17:33:21.023 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - null null
+2025-04-01 17:33:21.026 +02:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:33:21.032 +02:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:33:21.037 +02:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:33:21.042 +02:00 [INF] Handling GetByEmailCommand
+2025-04-01 17:33:21.043 +02:00 [INF] Handling GetByEmailCommand
+2025-04-01 17:33:21.047 +02:00 [INF] Handling GetByEmailCommand
+2025-04-01 17:33:21.049 +02:00 [INF] Property email : user1@email.com
+2025-04-01 17:33:21.052 +02:00 [INF] Property email : user1@email.com
+2025-04-01 17:33:21.055 +02:00 [INF] Handling CreateReservationCommand
+2025-04-01 17:33:21.058 +02:00 [INF] Property email : user1@email.com
+2025-04-01 17:33:21.068 +02:00 [INF] Property UserId : "dae1af0b-1c3d-4d12-de5f-08dd7079abac"
+2025-04-01 17:33:21.070 +02:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 9 ms
+2025-04-01 17:33:21.077 +02:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 2 ms
+2025-04-01 17:33:21.079 +02:00 [INF] Property SeatIds : ["d0377ccb-2876-4579-ebba-08dd7130dc18","604b6174-77a5-4dc3-ebbb-08dd7130dc18"]
+2025-04-01 17:33:21.082 +02:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:33:21.087 +02:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:33:21.088 +02:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 23 ms
+2025-04-01 17:33:21.097 +02:00 [INF] Property ProjectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:33:21.098 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - 200 null application/json; charset=utf-8 79.0799ms
+2025-04-01 17:33:21.100 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - 200 null application/json; charset=utf-8 77.0809ms
+2025-04-01 17:33:21.103 +02:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 17:33:21.115 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7275/Reservation - application/json; charset=utf-8 null
+2025-04-01 17:33:21.120 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7275/Reservation - application/json; charset=utf-8 null
+2025-04-01 17:33:21.123 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - 200 null application/json; charset=utf-8 101.8671ms
+2025-04-01 17:33:21.129 +02:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-04-01 17:33:21.133 +02:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-04-01 17:33:21.138 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7275/Reservation - application/json; charset=utf-8 null
+2025-04-01 17:33:21.141 +02:00 [INF] Handling CreateReservationCommand
+2025-04-01 17:33:21.141 +02:00 [INF] Handling CreateReservationCommand
+2025-04-01 17:33:21.147 +02:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-04-01 17:33:21.148 +02:00 [INF] Property UserId : "dae1af0b-1c3d-4d12-de5f-08dd7079abac"
+2025-04-01 17:33:21.150 +02:00 [INF] Property UserId : "dae1af0b-1c3d-4d12-de5f-08dd7079abac"
+2025-04-01 17:33:21.153 +02:00 [INF] Property SeatIds : ["d0377ccb-2876-4579-ebba-08dd7130dc18","604b6174-77a5-4dc3-ebbb-08dd7130dc18"]
+2025-04-01 17:33:21.153 +02:00 [INF] Handling CreateReservationCommand
+2025-04-01 17:33:21.155 +02:00 [INF] Property SeatIds : ["d0377ccb-2876-4579-ebba-08dd7130dc18","604b6174-77a5-4dc3-ebbb-08dd7130dc18"]
+2025-04-01 17:33:21.158 +02:00 [INF] Property ProjectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:33:21.162 +02:00 [INF] Property UserId : "dae1af0b-1c3d-4d12-de5f-08dd7079abac"
+2025-04-01 17:33:21.164 +02:00 [INF] Property ProjectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:33:21.168 +02:00 [INF] Property SeatIds : ["d0377ccb-2876-4579-ebba-08dd7130dc18","604b6174-77a5-4dc3-ebbb-08dd7130dc18"]
+2025-04-01 17:33:21.173 +02:00 [INF] Property ProjectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:33:21.420 +02:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 315 ms
+2025-04-01 17:33:21.420 +02:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 253 ms
+2025-04-01 17:33:21.420 +02:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 242 ms
+2025-04-01 17:33:21.420 +02:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 250 ms
+2025-04-01 17:33:22.931 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/projections/e3a0a321-7544-4bff-8936-5269d916574a
+2025-04-01 17:33:22.931 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/projections/e3a0a321-7544-4bff-8936-5269d916574a
+2025-04-01 17:33:22.931 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/projections/e3a0a321-7544-4bff-8936-5269d916574a
+2025-04-01 17:33:22.931 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/projections/e3a0a321-7544-4bff-8936-5269d916574a
+2025-04-01 17:33:22.934 +02:00 [INF] Sending HTTP request GET https://localhost:7043/projections/e3a0a321-7544-4bff-8936-5269d916574a
+2025-04-01 17:33:22.937 +02:00 [INF] Sending HTTP request GET https://localhost:7043/projections/e3a0a321-7544-4bff-8936-5269d916574a
+2025-04-01 17:33:22.941 +02:00 [INF] Sending HTTP request GET https://localhost:7043/projections/e3a0a321-7544-4bff-8936-5269d916574a
+2025-04-01 17:33:22.943 +02:00 [INF] Sending HTTP request GET https://localhost:7043/projections/e3a0a321-7544-4bff-8936-5269d916574a
+2025-04-01 17:33:23.182 +02:00 [INF] Received HTTP response headers after 230.2323ms - 200
+2025-04-01 17:33:23.186 +02:00 [INF] End processing HTTP request after 258.5935ms - 200
+2025-04-01 17:33:23.202 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/movies/0195f1f8-bea0-4830-a98b-b87a218d48f9
+2025-04-01 17:33:23.208 +02:00 [INF] Sending HTTP request GET https://localhost:7043/movies/0195f1f8-bea0-4830-a98b-b87a218d48f9
+2025-04-01 17:33:23.282 +02:00 [INF] Received HTTP response headers after 332.4592ms - 200
+2025-04-01 17:33:23.283 +02:00 [INF] Received HTTP response headers after 330.9397ms - 200
+2025-04-01 17:33:23.297 +02:00 [INF] End processing HTTP request after 369.4236ms - 200
+2025-04-01 17:33:23.302 +02:00 [INF] End processing HTTP request after 374.6221ms - 200
+2025-04-01 17:33:23.305 +02:00 [INF] Received HTTP response headers after 359.9378ms - 200
+2025-04-01 17:33:23.306 +02:00 [INF] Received HTTP response headers after 87.133ms - 200
+2025-04-01 17:33:23.311 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/movies/0195f1f8-bea0-4830-a98b-b87a218d48f9
+2025-04-01 17:33:23.313 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/movies/0195f1f8-bea0-4830-a98b-b87a218d48f9
+2025-04-01 17:33:23.316 +02:00 [INF] End processing HTTP request after 388.9484ms - 200
+2025-04-01 17:33:23.319 +02:00 [INF] End processing HTTP request after 116.7136ms - 200
+2025-04-01 17:33:23.324 +02:00 [INF] Sending HTTP request GET https://localhost:7043/movies/0195f1f8-bea0-4830-a98b-b87a218d48f9
+2025-04-01 17:33:23.326 +02:00 [INF] Sending HTTP request GET https://localhost:7043/movies/0195f1f8-bea0-4830-a98b-b87a218d48f9
+2025-04-01 17:33:23.329 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/movies/0195f1f8-bea0-4830-a98b-b87a218d48f9
+2025-04-01 17:33:23.335 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 17:33:23.336 +02:00 [INF] Sending HTTP request GET https://localhost:7043/movies/0195f1f8-bea0-4830-a98b-b87a218d48f9
+2025-04-01 17:33:23.344 +02:00 [INF] Received HTTP response headers after 11.6753ms - 200
+2025-04-01 17:33:23.345 +02:00 [INF] Received HTTP response headers after 10.7256ms - 200
+2025-04-01 17:33:23.348 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 17:33:23.352 +02:00 [INF] End processing HTTP request after 41.6763ms - 200
+2025-04-01 17:33:23.357 +02:00 [INF] End processing HTTP request after 43.4324ms - 200
+2025-04-01 17:33:23.359 +02:00 [INF] Received HTTP response headers after 8.2114ms - 200
+2025-04-01 17:33:23.361 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 17:33:23.363 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 17:33:23.364 +02:00 [INF] End processing HTTP request after 35.8358ms - 200
+2025-04-01 17:33:23.366 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 17:33:23.368 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 17:33:23.377 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 17:33:23.382 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 17:33:23.679 +02:00 [INF] Received HTTP response headers after 298.1962ms - 200
+2025-04-01 17:33:23.681 +02:00 [INF] Received HTTP response headers after 322.0091ms - 200
+2025-04-01 17:33:23.681 +02:00 [INF] End processing HTTP request after 318.37ms - 200
+2025-04-01 17:33:23.683 +02:00 [INF] End processing HTTP request after 347.6665ms - 200
+2025-04-01 17:33:23.745 +02:00 [INF] Received HTTP response headers after 360.1773ms - 200
+2025-04-01 17:33:23.747 +02:00 [INF] End processing HTTP request after 370.5097ms - 200
+2025-04-01 17:33:23.748 +02:00 [INF] Received HTTP response headers after 369.3109ms - 200
+2025-04-01 17:33:23.752 +02:00 [INF] End processing HTTP request after 390.9474ms - 200
+2025-04-01 17:33:23.755 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/d0377ccb-2876-4579-ebba-08dd7130dc18
+2025-04-01 17:33:23.755 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/d0377ccb-2876-4579-ebba-08dd7130dc18
+2025-04-01 17:33:23.760 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/d0377ccb-2876-4579-ebba-08dd7130dc18
+2025-04-01 17:33:23.762 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/d0377ccb-2876-4579-ebba-08dd7130dc18
+2025-04-01 17:33:23.767 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/d0377ccb-2876-4579-ebba-08dd7130dc18
+2025-04-01 17:33:23.769 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/d0377ccb-2876-4579-ebba-08dd7130dc18
+2025-04-01 17:33:23.769 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/d0377ccb-2876-4579-ebba-08dd7130dc18
+2025-04-01 17:33:23.772 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/d0377ccb-2876-4579-ebba-08dd7130dc18
+2025-04-01 17:33:23.840 +02:00 [INF] Received HTTP response headers after 75.6346ms - 200
+2025-04-01 17:33:23.842 +02:00 [INF] End processing HTTP request after 87.1865ms - 200
+2025-04-01 17:33:23.843 +02:00 [INF] Received HTTP response headers after 61.4415ms - 200
+2025-04-01 17:33:23.847 +02:00 [INF] End processing HTTP request after 78.3618ms - 200
+2025-04-01 17:33:23.850 +02:00 [INF] Received HTTP response headers after 70.8671ms - 200
+2025-04-01 17:33:23.852 +02:00 [INF] End processing HTTP request after 85.8889ms - 200
+2025-04-01 17:33:23.855 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:23.858 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:23.860 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:23.862 +02:00 [INF] Received HTTP response headers after 95.0569ms - 200
+2025-04-01 17:33:23.862 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:23.864 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:23.867 +02:00 [INF] End processing HTTP request after 111.5252ms - 200
+2025-04-01 17:33:23.878 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:23.887 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:23.893 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:23.999 +02:00 [INF] Received HTTP response headers after 124.4975ms - 200
+2025-04-01 17:33:24.002 +02:00 [INF] End processing HTTP request after 143.2202ms - 200
+2025-04-01 17:33:24.002 +02:00 [INF] Received HTTP response headers after 116.9676ms - 200
+2025-04-01 17:33:24.009 +02:00 [INF] End processing HTTP request after 145.1688ms - 200
+2025-04-01 17:33:24.014 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/604b6174-77a5-4dc3-ebbb-08dd7130dc18
+2025-04-01 17:33:24.016 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/604b6174-77a5-4dc3-ebbb-08dd7130dc18
+2025-04-01 17:33:24.016 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/604b6174-77a5-4dc3-ebbb-08dd7130dc18
+2025-04-01 17:33:24.018 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/604b6174-77a5-4dc3-ebbb-08dd7130dc18
+2025-04-01 17:33:24.018 +02:00 [INF] Received HTTP response headers after 153.9251ms - 200
+2025-04-01 17:33:24.023 +02:00 [INF] Received HTTP response headers after 127.5452ms - 200
+2025-04-01 17:33:24.032 +02:00 [INF] End processing HTTP request after 177.1288ms - 200
+2025-04-01 17:33:24.034 +02:00 [INF] End processing HTTP request after 146.3056ms - 200
+2025-04-01 17:33:24.046 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/604b6174-77a5-4dc3-ebbb-08dd7130dc18
+2025-04-01 17:33:24.048 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/604b6174-77a5-4dc3-ebbb-08dd7130dc18
+2025-04-01 17:33:24.049 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/604b6174-77a5-4dc3-ebbb-08dd7130dc18
+2025-04-01 17:33:24.051 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/604b6174-77a5-4dc3-ebbb-08dd7130dc18
+2025-04-01 17:33:24.162 +02:00 [INF] Received HTTP response headers after 132.6465ms - 200
+2025-04-01 17:33:24.169 +02:00 [INF] End processing HTTP request after 152.9368ms - 200
+2025-04-01 17:33:24.169 +02:00 [INF] Received HTTP response headers after 149.157ms - 200
+2025-04-01 17:33:24.173 +02:00 [INF] Received HTTP response headers after 113.1641ms - 200
+2025-04-01 17:33:24.174 +02:00 [INF] End processing HTTP request after 160.8293ms - 200
+2025-04-01 17:33:24.176 +02:00 [INF] Received HTTP response headers after 117.9839ms - 200
+2025-04-01 17:33:24.177 +02:00 [INF] End processing HTTP request after 128.3364ms - 200
+2025-04-01 17:33:24.177 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:24.180 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:24.190 +02:00 [INF] End processing HTTP request after 143.8205ms - 200
+2025-04-01 17:33:24.192 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:24.195 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:24.197 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:24.199 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:24.201 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:24.216 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 17:33:24.347 +02:00 [INF] Received HTTP response headers after 129.0472ms - 200
+2025-04-01 17:33:24.349 +02:00 [INF] End processing HTTP request after 156.3408ms - 200
+2025-04-01 17:33:24.349 +02:00 [INF] Received HTTP response headers after 145.4863ms - 200
+2025-04-01 17:33:24.353 +02:00 [INF] End processing HTTP request after 175.8313ms - 200
+2025-04-01 17:33:24.356 +02:00 [INF] Received HTTP response headers after 137.2064ms - 200
+2025-04-01 17:33:24.358 +02:00 [INF] End processing HTTP request after 158.9973ms - 200
+2025-04-01 17:33:24.359 +02:00 [INF] Received HTTP response headers after 153.1046ms - 200
+2025-04-01 17:33:24.362 +02:00 [INF] End processing HTTP request after 182.508ms - 200
+2025-04-01 17:33:24.674 +02:00 [INF] connectionsuccesfull
+2025-04-01 17:33:24.674 +02:00 [INF] connectionsuccesfull
+2025-04-01 17:33:24.674 +02:00 [INF] connectionsuccesfull
+2025-04-01 17:33:24.674 +02:00 [INF] connectionsuccesfull
+2025-04-01 17:33:24.802 +02:00 [INF] Message successfully published. Massage: {"ReservationId":"3fb8ca3f-5aea-4f33-3cee-08dd713288b5","Message":"Rezervace pro uzivatele user1@email.com, na The Shawshank Redemption v Sale Cinema.Common.Entities.CinemaService.Hall se zacatkem 02.04.2025 13:45:00,  sedadlo 7, \u0159ada 5, sedadlo 8, \u0159ada 5","ConfirmationLink":"https://localhost:7165/Reservation/Confirm?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNlcnZhdGlvbklkIjoiM2ZiOGNhM2YtNWFlYS00ZjMzLTNjZWUtMDhkZDcxMzI4OGI1IiwiZXhwIjoxNzQzNTIzNDAyLCJpc3MiOiJSZXNlcnZhdGlvblNlcnZpY2UiLCJhdWQiOiJSZXNlcnZhdGlvblNlcnZpY2UifQ.U8uVfpF9x38qgQu3FXuY-NEweaqoao1swSIInrlrrhs"}
+2025-04-01 17:33:24.802 +02:00 [INF] Message successfully published. Massage: {"ReservationId":"1bc02e06-2ab8-4592-3ced-08dd713288b5","Message":"Rezervace pro uzivatele user1@email.com, na The Shawshank Redemption v Sale Cinema.Common.Entities.CinemaService.Hall se zacatkem 02.04.2025 13:45:00,  sedadlo 7, \u0159ada 5, sedadlo 8, \u0159ada 5","ConfirmationLink":"https://localhost:7165/Reservation/Confirm?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNlcnZhdGlvbklkIjoiMWJjMDJlMDYtMmFiOC00NTkyLTNjZWQtMDhkZDcxMzI4OGI1IiwiZXhwIjoxNzQzNTIzNDAyLCJpc3MiOiJSZXNlcnZhdGlvblNlcnZpY2UiLCJhdWQiOiJSZXNlcnZhdGlvblNlcnZpY2UifQ.KbGrnyUZwo8Lz0bhUqqTkJvYPXdePr8hfgiHp0hEGQk"}
+2025-04-01 17:33:24.802 +02:00 [INF] Message successfully published. Massage: {"ReservationId":"6c3632ca-d241-4a4f-3cec-08dd713288b5","Message":"Rezervace pro uzivatele user1@email.com, na The Shawshank Redemption v Sale Cinema.Common.Entities.CinemaService.Hall se zacatkem 02.04.2025 13:45:00,  sedadlo 7, \u0159ada 5, sedadlo 8, \u0159ada 5","ConfirmationLink":"https://localhost:7165/Reservation/Confirm?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNlcnZhdGlvbklkIjoiNmMzNjMyY2EtZDI0MS00YTRmLTNjZWMtMDhkZDcxMzI4OGI1IiwiZXhwIjoxNzQzNTIzNDAyLCJpc3MiOiJSZXNlcnZhdGlvblNlcnZpY2UiLCJhdWQiOiJSZXNlcnZhdGlvblNlcnZpY2UifQ.7renSOjlefKWA7B1Z0KzctwbR46_BtXVkjPqpjNENRo"}
+2025-04-01 17:33:24.802 +02:00 [INF] Message successfully published. Massage: {"ReservationId":"87af0890-29b1-455d-3cef-08dd713288b5","Message":"Rezervace pro uzivatele user1@email.com, na The Shawshank Redemption v Sale Cinema.Common.Entities.CinemaService.Hall se zacatkem 02.04.2025 13:45:00,  sedadlo 7, \u0159ada 5, sedadlo 8, \u0159ada 5","ConfirmationLink":"https://localhost:7165/Reservation/Confirm?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNlcnZhdGlvbklkIjoiODdhZjA4OTAtMjliMS00NTVkLTNjZWYtMDhkZDcxMzI4OGI1IiwiZXhwIjoxNzQzNTIzNDAyLCJpc3MiOiJSZXNlcnZhdGlvblNlcnZpY2UiLCJhdWQiOiJSZXNlcnZhdGlvblNlcnZpY2UifQ.2STJSqVkb5tLZqxkAoBT2bPjPUlaFVl2TdxJ-ZWOxW4"}
+2025-04-01 17:33:24.881 +02:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-04-01 17:33:24.881 +02:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-04-01 17:33:24.881 +02:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-04-01 17:33:24.881 +02:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-04-01 17:33:24.885 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 3764.9444ms
+2025-04-01 17:33:24.886 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 3880.4267ms
+2025-04-01 17:33:24.888 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 3772.7661ms
+2025-04-01 17:33:24.890 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 3752.1606ms
+2025-04-01 17:33:36.213 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - null null
+2025-04-01 17:33:36.218 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:33:36.221 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 17:33:36.222 +02:00 [INF] Property projectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:33:36.249 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 25 ms
+2025-04-01 17:33:36.253 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:33:36.256 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - 200 null application/json; charset=utf-8 42.4721ms
+2025-04-01 17:33:37.319 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - null null
+2025-04-01 17:33:37.324 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:33:37.326 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 17:33:37.328 +02:00 [INF] Property projectionId : "e3a0a321-7544-4bff-8936-5269d916574a"
+2025-04-01 17:33:37.343 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 11 ms
+2025-04-01 17:33:37.348 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:33:37.350 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e3a0a321-7544-4bff-8936-5269d916574a - 200 null application/json; charset=utf-8 31.6282ms
+2025-04-01 17:34:08.055 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 17:34:08.062 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:34:08.064 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 17:34:08.069 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 17:34:08.081 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 9 ms
+2025-04-01 17:34:08.085 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:34:08.087 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 32.6137ms
+2025-04-01 17:34:09.183 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 17:34:09.188 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:34:09.190 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 17:34:09.191 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 17:34:09.203 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 9 ms
+2025-04-01 17:34:09.205 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 17:34:09.208 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 25.1437ms
+2025-04-01 17:36:25.576 +02:00 [INF] Registered 9 endpoints in 479 milliseconds.
+2025-04-01 17:36:25.732 +02:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-04-01 17:36:25.734 +02:00 [INF] Quartz Scheduler created
+2025-04-01 17:36:25.735 +02:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2025-04-01 17:36:25.737 +02:00 [INF] RAMJobStore initialized.
+2025-04-01 17:36:25.739 +02:00 [INF] Quartz Scheduler 3.14.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-04-01 17:36:25.740 +02:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-04-01 17:36:25.742 +02:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-04-01 17:36:25.751 +02:00 [INF] Adding 1 jobs, 1 triggers.
+2025-04-01 17:36:25.754 +02:00 [INF] Adding job: DEFAULT.DeleteExpiredReservationsJob
+2025-04-01 17:36:25.954 +02:00 [INF] Now listening on: https://localhost:7275
+2025-04-01 17:36:25.957 +02:00 [INF] Now listening on: http://localhost:5120
+2025-04-01 17:36:25.992 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-04-01 17:36:26.059 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 17:36:26.060 +02:00 [INF] Hosting environment: Development
+2025-04-01 17:36:26.062 +02:00 [INF] Content root path: C:\Users\Alexa\source\repos\Cinema-ReservationService\RegistrationService\RegistrationService.API
+2025-04-01 17:36:26.063 +02:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2025-04-01 20:48:55.551 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 20:48:55.834 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:48:56.015 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:48:56.021 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:48:59.432 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 3403 ms
+2025-04-01 20:48:59.467 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:48:59.495 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 3957.8055ms
+2025-04-01 20:49:02.785 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 20:49:02.831 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:49:02.841 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:49:02.846 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:49:03.035 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 178 ms
+2025-04-01 20:49:03.044 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:49:03.053 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 267.9662ms
+2025-04-01 20:49:08.986 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 20:49:09.009 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:49:09.023 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:49:09.037 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:49:09.134 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 83 ms
+2025-04-01 20:49:09.143 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:49:09.162 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 175.6355ms
+2025-04-01 20:49:12.183 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 20:49:12.203 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:49:12.220 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:49:12.225 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:49:12.257 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 19 ms
+2025-04-01 20:49:12.275 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:49:12.292 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 108.2036ms
+2025-04-01 20:49:17.237 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - null null
+2025-04-01 20:49:17.250 +02:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 20:49:17.291 +02:00 [INF] Handling GetByEmailCommand
+2025-04-01 20:49:17.297 +02:00 [INF] Property email : user1@email.com
+2025-04-01 20:49:17.488 +02:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 185 ms
+2025-04-01 20:49:17.515 +02:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 20:49:17.521 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - 200 null application/json; charset=utf-8 283.9966ms
+2025-04-01 20:49:17.846 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7275/Reservation - application/json; charset=utf-8 null
+2025-04-01 20:49:17.858 +02:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-04-01 20:49:18.032 +02:00 [INF] Handling CreateReservationCommand
+2025-04-01 20:49:18.038 +02:00 [INF] Property UserId : "dae1af0b-1c3d-4d12-de5f-08dd7079abac"
+2025-04-01 20:49:18.048 +02:00 [INF] Property SeatIds : ["055ed807-4888-463a-eb85-08dd7130dc18","ddd542f4-275c-460b-eb84-08dd7130dc18"]
+2025-04-01 20:49:18.064 +02:00 [INF] Property ProjectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:49:18.792 +02:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 721 ms
+2025-04-01 20:49:19.062 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/projections/9fecdddf-43c5-4944-81df-557216e86190
+2025-04-01 20:49:19.072 +02:00 [INF] Sending HTTP request GET https://localhost:7043/projections/9fecdddf-43c5-4944-81df-557216e86190
+2025-04-01 20:49:19.344 +02:00 [INF] Received HTTP response headers after 259.8612ms - 200
+2025-04-01 20:49:19.351 +02:00 [INF] End processing HTTP request after 299.7731ms - 200
+2025-04-01 20:49:19.384 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/movies/0195f1f8-beff-4677-9ae0-d483278c87e9
+2025-04-01 20:49:19.391 +02:00 [INF] Sending HTTP request GET https://localhost:7043/movies/0195f1f8-beff-4677-9ae0-d483278c87e9
+2025-04-01 20:49:19.414 +02:00 [INF] Received HTTP response headers after 16.7682ms - 200
+2025-04-01 20:49:19.420 +02:00 [INF] End processing HTTP request after 35.9913ms - 200
+2025-04-01 20:49:19.438 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 20:49:19.443 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 20:49:19.545 +02:00 [INF] Received HTTP response headers after 96.5578ms - 200
+2025-04-01 20:49:19.551 +02:00 [INF] End processing HTTP request after 113.3657ms - 200
+2025-04-01 20:49:19.591 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/055ed807-4888-463a-eb85-08dd7130dc18
+2025-04-01 20:49:19.597 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/055ed807-4888-463a-eb85-08dd7130dc18
+2025-04-01 20:49:19.660 +02:00 [INF] Received HTTP response headers after 57.7291ms - 200
+2025-04-01 20:49:19.668 +02:00 [INF] End processing HTTP request after 76.8314ms - 200
+2025-04-01 20:49:19.681 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:49:19.687 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:49:19.769 +02:00 [INF] Received HTTP response headers after 75.6983ms - 200
+2025-04-01 20:49:19.775 +02:00 [INF] End processing HTTP request after 93.8444ms - 200
+2025-04-01 20:49:19.782 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/ddd542f4-275c-460b-eb84-08dd7130dc18
+2025-04-01 20:49:19.790 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/ddd542f4-275c-460b-eb84-08dd7130dc18
+2025-04-01 20:49:19.861 +02:00 [INF] Received HTTP response headers after 65.837ms - 200
+2025-04-01 20:49:19.867 +02:00 [INF] End processing HTTP request after 85.0904ms - 200
+2025-04-01 20:49:19.873 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:49:19.881 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:49:19.991 +02:00 [INF] Received HTTP response headers after 104.9187ms - 200
+2025-04-01 20:49:19.997 +02:00 [INF] End processing HTTP request after 123.8237ms - 200
+2025-04-01 20:49:20.406 +02:00 [INF] connectionsuccesfull
+2025-04-01 20:49:20.528 +02:00 [INF] Message successfully published. Massage: {"ReservationId":"11e52125-aa2d-412a-dd9e-08dd714de884","Message":"Rezervace pro uzivatele user1@email.com, na The Garfield Movie v Sale Cinema.Common.Entities.CinemaService.Hall se zacatkem 01.04.2025 17:33:53,  sedadlo 6, \u0159ada 1, sedadlo 5, \u0159ada 1","ConfirmationLink":"https://localhost:7165/Reservation/Confirm?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNlcnZhdGlvbklkIjoiMTFlNTIxMjUtYWEyZC00MTJhLWRkOWUtMDhkZDcxNGRlODg0IiwiZXhwIjoxNzQzNTM1MTU4LCJpc3MiOiJSZXNlcnZhdGlvblNlcnZpY2UiLCJhdWQiOiJSZXNlcnZhdGlvblNlcnZpY2UifQ.iYtyFSb0PMG8Zg5NVaSDEbqonzQLFST5hccKyBls4yU"}
+2025-04-01 20:49:20.652 +02:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-04-01 20:49:20.666 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 2820.0386ms
+2025-04-01 20:50:21.815 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 20:50:21.845 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:50:21.864 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:50:21.868 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:50:21.890 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 13 ms
+2025-04-01 20:50:21.897 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:50:21.902 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 87.1616ms
+2025-04-01 20:50:24.887 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 20:50:24.901 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:50:24.907 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:50:24.916 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:50:24.932 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 9 ms
+2025-04-01 20:50:24.940 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:50:24.948 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 60.3801ms
+2025-04-01 20:50:45.810 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 20:50:45.828 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:50:45.835 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:50:45.846 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:50:45.888 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 34 ms
+2025-04-01 20:50:45.896 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:50:45.907 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 96.4108ms
+2025-04-01 20:50:49.014 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 20:50:49.032 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:50:49.041 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:50:49.045 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:50:49.069 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 18 ms
+2025-04-01 20:50:49.077 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:50:49.094 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 80.5844ms
+2025-04-01 20:50:52.860 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 20:50:52.931 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:50:52.953 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:50:52.961 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:50:53.043 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 68 ms
+2025-04-01 20:50:53.072 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:50:53.103 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 242.7889ms
+2025-04-01 20:51:03.675 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - null null
+2025-04-01 20:51:03.687 +02:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 20:51:03.696 +02:00 [INF] Handling GetByEmailCommand
+2025-04-01 20:51:03.701 +02:00 [INF] Property email : user1@email.com
+2025-04-01 20:51:03.729 +02:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 19 ms
+2025-04-01 20:51:03.738 +02:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 20:51:03.744 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser1@email.com - 200 null application/json; charset=utf-8 69.0992ms
+2025-04-01 20:51:03.767 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7275/Reservation - application/json; charset=utf-8 null
+2025-04-01 20:51:03.782 +02:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-04-01 20:51:03.794 +02:00 [INF] Handling CreateReservationCommand
+2025-04-01 20:51:03.803 +02:00 [INF] Property UserId : "dae1af0b-1c3d-4d12-de5f-08dd7079abac"
+2025-04-01 20:51:03.809 +02:00 [INF] Property SeatIds : ["4f457f25-db48-41cb-eb87-08dd7130dc18","b7f17a26-a039-47a2-eb88-08dd7130dc18","d6461bad-5837-4baf-eb89-08dd7130dc18"]
+2025-04-01 20:51:03.821 +02:00 [INF] Property ProjectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:51:03.860 +02:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 27 ms
+2025-04-01 20:51:03.874 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/projections/9fecdddf-43c5-4944-81df-557216e86190
+2025-04-01 20:51:03.881 +02:00 [INF] Sending HTTP request GET https://localhost:7043/projections/9fecdddf-43c5-4944-81df-557216e86190
+2025-04-01 20:51:03.925 +02:00 [INF] Received HTTP response headers after 38.6534ms - 200
+2025-04-01 20:51:03.932 +02:00 [INF] End processing HTTP request after 58.179ms - 200
+2025-04-01 20:51:03.947 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/movies/0195f1f8-beff-4677-9ae0-d483278c87e9
+2025-04-01 20:51:03.954 +02:00 [INF] Sending HTTP request GET https://localhost:7043/movies/0195f1f8-beff-4677-9ae0-d483278c87e9
+2025-04-01 20:51:03.971 +02:00 [INF] Received HTTP response headers after 10.8824ms - 200
+2025-04-01 20:51:03.976 +02:00 [INF] End processing HTTP request after 29.4833ms - 200
+2025-04-01 20:51:03.986 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 20:51:03.991 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Halls/GetById/30b65310-2358-4bfa-6f21-08dd7130dbdb
+2025-04-01 20:51:04.081 +02:00 [INF] Received HTTP response headers after 81.7143ms - 200
+2025-04-01 20:51:04.091 +02:00 [INF] End processing HTTP request after 104.5894ms - 200
+2025-04-01 20:51:04.102 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/4f457f25-db48-41cb-eb87-08dd7130dc18
+2025-04-01 20:51:04.108 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/4f457f25-db48-41cb-eb87-08dd7130dc18
+2025-04-01 20:51:04.184 +02:00 [INF] Received HTTP response headers after 63.1733ms - 200
+2025-04-01 20:51:04.191 +02:00 [INF] End processing HTTP request after 89.2562ms - 200
+2025-04-01 20:51:04.199 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:51:04.209 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:51:04.263 +02:00 [INF] Received HTTP response headers after 49.2043ms - 200
+2025-04-01 20:51:04.272 +02:00 [INF] End processing HTTP request after 73.1412ms - 200
+2025-04-01 20:51:04.279 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/b7f17a26-a039-47a2-eb88-08dd7130dc18
+2025-04-01 20:51:04.290 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/b7f17a26-a039-47a2-eb88-08dd7130dc18
+2025-04-01 20:51:04.352 +02:00 [INF] Received HTTP response headers after 52.7935ms - 200
+2025-04-01 20:51:04.357 +02:00 [INF] End processing HTTP request after 77.9578ms - 200
+2025-04-01 20:51:04.366 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:51:04.375 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:51:04.447 +02:00 [INF] Received HTTP response headers after 48.205ms - 200
+2025-04-01 20:51:04.452 +02:00 [INF] End processing HTTP request after 85.7233ms - 200
+2025-04-01 20:51:04.458 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/d6461bad-5837-4baf-eb89-08dd7130dc18
+2025-04-01 20:51:04.462 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/d6461bad-5837-4baf-eb89-08dd7130dc18
+2025-04-01 20:51:04.515 +02:00 [INF] Received HTTP response headers after 48.4766ms - 200
+2025-04-01 20:51:04.521 +02:00 [INF] End processing HTTP request after 63.0245ms - 200
+2025-04-01 20:51:04.526 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:51:04.531 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:51:04.587 +02:00 [INF] Received HTTP response headers after 48.6381ms - 200
+2025-04-01 20:51:04.595 +02:00 [INF] End processing HTTP request after 69.1051ms - 200
+2025-04-01 20:51:04.690 +02:00 [INF] connectionsuccesfull
+2025-04-01 20:51:04.706 +02:00 [INF] Message successfully published. Massage: {"ReservationId":"352e3db4-b1c9-4028-dd9f-08dd714de884","Message":"Rezervace pro uzivatele user1@email.com, na The Garfield Movie v Sale Cinema.Common.Entities.CinemaService.Hall se zacatkem 01.04.2025 17:33:53,  sedadlo 8, \u0159ada 1, sedadlo 9, \u0159ada 1, sedadlo 10, \u0159ada 1","ConfirmationLink":"https://localhost:7165/Reservation/Confirm?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNlcnZhdGlvbklkIjoiMzUyZTNkYjQtYjFjOS00MDI4LWRkOWYtMDhkZDcxNGRlODg0IiwiZXhwIjoxNzQzNTM1MjYzLCJpc3MiOiJSZXNlcnZhdGlvblNlcnZpY2UiLCJhdWQiOiJSZXNlcnZhdGlvblNlcnZpY2UifQ.4oPhLEqyKcnZwBDbaCzUZ9nUM2mTk3YIKO8Ls0FjlUg"}
+2025-04-01 20:51:04.758 +02:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-04-01 20:51:04.768 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 1001.6086ms
+2025-04-01 20:51:10.482 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 20:51:10.495 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:51:10.501 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:51:10.506 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:51:10.554 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 36 ms
+2025-04-01 20:51:10.564 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:51:10.570 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 87.6857ms
+2025-04-01 20:51:13.270 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - null null
+2025-04-01 20:51:13.287 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:51:13.293 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:51:13.297 +02:00 [INF] Property projectionId : "9fecdddf-43c5-4944-81df-557216e86190"
+2025-04-01 20:51:13.319 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 14 ms
+2025-04-01 20:51:13.327 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:51:13.332 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/9fecdddf-43c5-4944-81df-557216e86190 - 200 null application/json; charset=utf-8 61.9453ms
+2025-04-01 20:52:24.634 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:52:24.651 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:52:24.660 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:52:24.665 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:52:24.679 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 4 ms
+2025-04-01 20:52:24.686 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:52:24.696 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 60.6497ms
+2025-04-01 20:52:25.777 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:52:25.797 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:52:25.810 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:52:25.816 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:52:25.829 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 5 ms
+2025-04-01 20:52:25.840 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:52:25.853 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 76.0883ms
+2025-04-01 20:52:28.458 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:52:28.480 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:52:28.492 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:52:28.505 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:52:28.519 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 4 ms
+2025-04-01 20:52:28.532 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:52:28.552 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 93.3227ms
+2025-04-01 20:52:29.512 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:52:29.536 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:52:29.544 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:52:29.554 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:52:29.574 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 4 ms
+2025-04-01 20:52:29.590 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:52:29.600 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 87.1455ms
+2025-04-01 20:52:41.805 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser25@email.com - null null
+2025-04-01 20:52:41.892 +02:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 20:52:41.908 +02:00 [INF] Handling GetByEmailCommand
+2025-04-01 20:52:41.941 +02:00 [INF] Property email : user25@email.com
+2025-04-01 20:52:42.036 +02:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 72 ms
+2025-04-01 20:52:42.060 +02:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 20:52:42.091 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Users/GetByEmailuser25@email.com - 200 null application/json; charset=utf-8 286.0948ms
+2025-04-01 20:53:13.297 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7275/Users - application/json; charset=utf-8 null
+2025-04-01 20:53:13.324 +02:00 [INF] Executing endpoint 'HTTP: POST /Users'
+2025-04-01 20:53:13.407 +02:00 [INF] Handling CreateUserCommand
+2025-04-01 20:53:13.416 +02:00 [INF] Property Email : janka@email.com
+2025-04-01 20:53:13.431 +02:00 [INF] Property PhoneNumber : 666666666
+2025-04-01 20:53:13.555 +02:00 [INF] Handled CreateUserCommand with Ardalis.Result.Result`1[System.Guid] in 113 ms
+2025-04-01 20:53:13.564 +02:00 [INF] Executed endpoint 'HTTP: POST /Users'
+2025-04-01 20:53:13.572 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7275/Users - 200 null application/json; charset=utf-8 274.8593ms
+2025-04-01 20:53:17.856 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:53:17.873 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:17.878 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:53:17.886 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:53:17.897 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 5 ms
+2025-04-01 20:53:17.907 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:17.912 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 56.6768ms
+2025-04-01 20:53:19.048 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:53:19.066 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:19.071 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:53:19.076 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:53:19.092 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 8 ms
+2025-04-01 20:53:19.103 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:19.109 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 60.8883ms
+2025-04-01 20:53:21.649 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:53:21.676 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:21.684 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:53:21.690 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:53:21.710 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 5 ms
+2025-04-01 20:53:21.730 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:21.750 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 100.8729ms
+2025-04-01 20:53:23.104 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:53:23.122 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:23.130 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:53:23.137 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:53:23.156 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 8 ms
+2025-04-01 20:53:23.169 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:23.180 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 76.4036ms
+2025-04-01 20:53:31.235 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Users/GetByEmailjanka@email.com - null null
+2025-04-01 20:53:31.254 +02:00 [INF] Executing endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 20:53:31.262 +02:00 [INF] Handling GetByEmailCommand
+2025-04-01 20:53:31.278 +02:00 [INF] Property email : janka@email.com
+2025-04-01 20:53:31.298 +02:00 [INF] Handled GetByEmailCommand with Ardalis.Result.Result`1[System.Guid] in 9 ms
+2025-04-01 20:53:31.315 +02:00 [INF] Executed endpoint 'HTTP: GET /Users/GetByEmail{Email}'
+2025-04-01 20:53:31.323 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Users/GetByEmailjanka@email.com - 200 null application/json; charset=utf-8 88.4942ms
+2025-04-01 20:53:31.352 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7275/Reservation - application/json; charset=utf-8 null
+2025-04-01 20:53:31.370 +02:00 [INF] Executing endpoint 'HTTP: POST /Reservation'
+2025-04-01 20:53:31.384 +02:00 [INF] Handling CreateReservationCommand
+2025-04-01 20:53:31.391 +02:00 [INF] Property UserId : "0e920537-0e8d-4133-12a2-08dd714e74ad"
+2025-04-01 20:53:31.402 +02:00 [INF] Property SeatIds : ["f29de617-db68-409f-eeb1-08dd7130dc18","e18acdd0-8b96-42c9-eeb2-08dd7130dc18"]
+2025-04-01 20:53:31.416 +02:00 [INF] Property ProjectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:53:31.466 +02:00 [INF] Handled CreateReservationCommand with Ardalis.Result.Result`1[System.Guid] in 44 ms
+2025-04-01 20:53:31.480 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/projections/be42ce71-245a-4ecf-9176-e3ffb6c445cb
+2025-04-01 20:53:31.489 +02:00 [INF] Sending HTTP request GET https://localhost:7043/projections/be42ce71-245a-4ecf-9176-e3ffb6c445cb
+2025-04-01 20:53:31.539 +02:00 [INF] Received HTTP response headers after 41.0463ms - 200
+2025-04-01 20:53:31.547 +02:00 [INF] End processing HTTP request after 67.2832ms - 200
+2025-04-01 20:53:31.557 +02:00 [INF] Start processing HTTP request GET https://localhost:7043/movies/0195f1f8-beff-4677-9ae0-d483278c87e9
+2025-04-01 20:53:31.568 +02:00 [INF] Sending HTTP request GET https://localhost:7043/movies/0195f1f8-beff-4677-9ae0-d483278c87e9
+2025-04-01 20:53:31.590 +02:00 [INF] Received HTTP response headers after 13.3683ms - 200
+2025-04-01 20:53:31.599 +02:00 [INF] End processing HTTP request after 41.8796ms - 200
+2025-04-01 20:53:31.617 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Halls/GetById/0ceea070-01a7-40fc-6f23-08dd7130dbdb
+2025-04-01 20:53:31.626 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Halls/GetById/0ceea070-01a7-40fc-6f23-08dd7130dbdb
+2025-04-01 20:53:31.722 +02:00 [INF] Received HTTP response headers after 85.4323ms - 200
+2025-04-01 20:53:31.729 +02:00 [INF] End processing HTTP request after 111.7015ms - 200
+2025-04-01 20:53:31.737 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/f29de617-db68-409f-eeb1-08dd7130dc18
+2025-04-01 20:53:31.748 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/f29de617-db68-409f-eeb1-08dd7130dc18
+2025-04-01 20:53:31.811 +02:00 [INF] Received HTTP response headers after 57.2065ms - 200
+2025-04-01 20:53:31.818 +02:00 [INF] End processing HTTP request after 80.9162ms - 200
+2025-04-01 20:53:31.840 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:53:31.849 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:53:31.924 +02:00 [INF] Received HTTP response headers after 63.3864ms - 200
+2025-04-01 20:53:31.938 +02:00 [INF] End processing HTTP request after 97.7712ms - 200
+2025-04-01 20:53:31.950 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Seats/GetById/e18acdd0-8b96-42c9-eeb2-08dd7130dc18
+2025-04-01 20:53:31.957 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Seats/GetById/e18acdd0-8b96-42c9-eeb2-08dd7130dc18
+2025-04-01 20:53:32.083 +02:00 [INF] Received HTTP response headers after 108.0153ms - 200
+2025-04-01 20:53:32.089 +02:00 [INF] End processing HTTP request after 139.6619ms - 200
+2025-04-01 20:53:32.100 +02:00 [INF] Start processing HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:53:32.106 +02:00 [INF] Sending HTTP request GET https://localhost:7254/Rows/GetById/?*
+2025-04-01 20:53:32.162 +02:00 [INF] Received HTTP response headers after 46.3387ms - 200
+2025-04-01 20:53:32.169 +02:00 [INF] End processing HTTP request after 68.7609ms - 200
+2025-04-01 20:53:32.259 +02:00 [INF] connectionsuccesfull
+2025-04-01 20:53:32.275 +02:00 [INF] Message successfully published. Massage: {"ReservationId":"1b110286-5a5b-4ff1-dda0-08dd714de884","Message":"Rezervace pro uzivatele janka@email.com, na The Garfield Movie v Sale Cinema.Common.Entities.CinemaService.Hall se zacatkem 01.04.2025 22:51:00,  sedadlo 6, \u0159ada 1, sedadlo 7, \u0159ada 1","ConfirmationLink":"https://localhost:7165/Reservation/Confirm?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNlcnZhdGlvbklkIjoiMWIxMTAyODYtNWE1Yi00ZmYxLWRkYTAtMDhkZDcxNGRlODg0IiwiZXhwIjoxNzQzNTM1NDExLCJpc3MiOiJSZXNlcnZhdGlvblNlcnZpY2UiLCJhdWQiOiJSZXNlcnZhdGlvblNlcnZpY2UifQ.PEiNvrXhwStJPjzgK_vFcKCjAcmmZ4BxB2iTqd8-Obk"}
+2025-04-01 20:53:32.328 +02:00 [INF] Executed endpoint 'HTTP: POST /Reservation'
+2025-04-01 20:53:32.337 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7275/Reservation - 200 null application/json; charset=utf-8 985.4069ms
+2025-04-01 20:53:43.532 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:53:43.545 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:43.550 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:53:43.559 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:53:43.574 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 8 ms
+2025-04-01 20:53:43.581 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:43.593 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 60.9735ms
+2025-04-01 20:53:44.661 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:53:44.676 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:44.682 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:53:44.686 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:53:44.709 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 12 ms
+2025-04-01 20:53:44.715 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:53:44.729 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 67.9617ms
+2025-04-01 20:54:53.790 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:54:53.806 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:54:53.816 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:54:53.821 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:54:53.838 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 7 ms
+2025-04-01 20:54:53.845 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:54:53.855 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 64.8199ms
+2025-04-01 20:54:54.897 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - null null
+2025-04-01 20:54:54.928 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:54:54.936 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 20:54:54.943 +02:00 [INF] Property projectionId : "be42ce71-245a-4ecf-9176-e3ffb6c445cb"
+2025-04-01 20:54:54.957 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 8 ms
+2025-04-01 20:54:54.964 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 20:54:54.969 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/be42ce71-245a-4ecf-9176-e3ffb6c445cb - 200 null application/json; charset=utf-8 72.0542ms
+2025-04-01 21:00:21.839 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e599a3f0-55e8-4c79-84f5-b82ea2be8b71 - null null
+2025-04-01 21:00:21.872 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 21:00:21.884 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 21:00:21.891 +02:00 [INF] Property projectionId : "e599a3f0-55e8-4c79-84f5-b82ea2be8b71"
+2025-04-01 21:00:22.400 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 500 ms
+2025-04-01 21:00:22.411 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 21:00:22.421 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e599a3f0-55e8-4c79-84f5-b82ea2be8b71 - 200 null application/json; charset=utf-8 583.5534ms
+2025-04-01 21:00:25.251 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e599a3f0-55e8-4c79-84f5-b82ea2be8b71 - null null
+2025-04-01 21:00:25.266 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 21:00:25.272 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 21:00:25.280 +02:00 [INF] Property projectionId : "e599a3f0-55e8-4c79-84f5-b82ea2be8b71"
+2025-04-01 21:00:25.308 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 21 ms
+2025-04-01 21:00:25.316 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 21:00:25.321 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e599a3f0-55e8-4c79-84f5-b82ea2be8b71 - 200 null application/json; charset=utf-8 70.496ms
+2025-04-01 21:00:34.365 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e599a3f0-55e8-4c79-84f5-b82ea2be8b71 - null null
+2025-04-01 21:00:34.379 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 21:00:34.385 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 21:00:34.389 +02:00 [INF] Property projectionId : "e599a3f0-55e8-4c79-84f5-b82ea2be8b71"
+2025-04-01 21:00:34.435 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 34 ms
+2025-04-01 21:00:34.447 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 21:00:34.478 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e599a3f0-55e8-4c79-84f5-b82ea2be8b71 - 200 null application/json; charset=utf-8 112.2491ms
+2025-04-01 21:00:37.816 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e599a3f0-55e8-4c79-84f5-b82ea2be8b71 - null null
+2025-04-01 21:00:37.830 +02:00 [INF] Executing endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 21:00:37.835 +02:00 [INF] Handling GetOccupiedSeatsProjectionIdCommand
+2025-04-01 21:00:37.843 +02:00 [INF] Property projectionId : "e599a3f0-55e8-4c79-84f5-b82ea2be8b71"
+2025-04-01 21:00:37.872 +02:00 [INF] Handled GetOccupiedSeatsProjectionIdCommand with Ardalis.Result.Result`1[System.Collections.Generic.List`1[System.Guid]] in 23 ms
+2025-04-01 21:00:37.880 +02:00 [INF] Executed endpoint 'HTTP: GET /Reservation/GetOccupiedSeatsByProjectionId/{Id}'
+2025-04-01 21:00:37.887 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7275/Reservation/GetOccupiedSeatsByProjectionId/e599a3f0-55e8-4c79-84f5-b82ea2be8b71 - 200 null application/json; charset=utf-8 70.9803ms

@@ -25,20 +25,37 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var hallId in ProjectionsByHall)
+            @if (IsLoading)
             {
-                <tr>
-                    <td>@hallNames[hallId.Key]</td>
-                    <td>
-                        @foreach (var projection in ProjectionsByHall[hallId.Key])
-                        {
-                            <span class="time-button" @onclick="@(() => NavigateToProjection(projection.Id))">
-                                @projection.StartTime.ToString("HH:mm")
-                            </span>
-                        }
-                    </td>
-                </tr>
+                <tr><td colspan="2">Načítání...</td></tr>
             }
+            else
+            {
+                @foreach (var hallId in ProjectionsByHall)
+                {
+                    <tr>
+                        <td>
+                            @if (hallNames.TryGetValue(hallId.Key, out var hallName))
+                            {
+                                @hallName
+                            }
+                            else
+                            {
+                                <span style="color:red">Neznámý sál</span>
+                            }
+                        </td>
+                        <td>
+                            @foreach (var projection in ProjectionsByHall[hallId.Key])
+                            {
+                                <span class="time-button" @onclick="@(() => NavigateToProjection(projection.Id))">
+                                    @projection.StartTime.ToString("HH:mm")
+                                </span>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+
         </tbody>
     </table>
 </div>
@@ -56,6 +73,8 @@
 
     private bool IsPreviousDisabled => SelectedDate <= DateOnly.FromDateTime(DateTime.Today);
     private bool IsNextDisabled => SelectedDate >= DateOnly.FromDateTime(DateTime.Today.AddDays(7));
+    private bool IsLoading = false;
+
 
     protected override async Task OnInitializedAsync()
     {
@@ -65,12 +84,12 @@
         AllProjections = await movieClient.GetAllProjectionsOfMovie(MovieId);
 
         FilterProjectionsForSelectedDate();
-
-        foreach (var item in ProjectionsByHall)
-        {
-            var hall = await cinemaClient.GetHallByHallId(item.Key);
-            hallNames.Add(item.Key, hall.Name);
-        };
+        await LoadHallNamesAsync();
+        // foreach (var item in ProjectionsByHall)
+        // {
+        //     var hall = await cinemaClient.GetHallByHallId(item.Key);
+        //     hallNames.Add(item.Key, hall.Name);
+        // };
     }
 
     private void FilterProjectionsForSelectedDate()
@@ -84,21 +103,25 @@
             );
     }
 
-    private void PreviousDay()
+    private async Task PreviousDay()
     {
         if (!IsPreviousDisabled)
         {
+            IsLoading = true;
             SelectedDate = SelectedDate.AddDays(-1);
             FilterProjectionsForSelectedDate();
+            await LoadHallNamesAsync();
+            IsLoading = false;
         }
     }
 
-    private void NextDay()
+    private async Task NextDay()
     {
         if (!IsNextDisabled)
         {
             SelectedDate = SelectedDate.AddDays(1);
             FilterProjectionsForSelectedDate();
+            await LoadHallNamesAsync();
         }
     }
 
@@ -106,6 +129,26 @@
     {
         Navigation.NavigateTo($"/seats/{projectionId}");
     }
+
+    private async Task LoadHallNamesAsync()
+    {
+        hallNames.Clear();
+
+        foreach (var item in ProjectionsByHall)
+        {
+            try
+            {
+                var hall = await cinemaClient.GetHallByHallId(item.Key);
+                if (!hallNames.ContainsKey(item.Key))
+                    hallNames.Add(item.Key, hall.Name);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[ERROR] Cannot get hall {item.Key}: {ex.Message}");
+            }
+        }
+    }
+
 }
 
 

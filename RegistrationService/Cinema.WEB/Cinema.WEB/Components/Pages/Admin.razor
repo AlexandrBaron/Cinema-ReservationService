@@ -192,7 +192,7 @@ else if (aktivniMod == "projekce")
 
     private void OnCreate()
     {
-        //editableMovie = new MovieEntity();
+        editableMovie = new MovieEntity{Cast = null, Description = null, Director = null, DurationInMinutes = 0, IsPlaying = false, Title = null  };
         showEditPanel = false;
         showCreatePanel = true;
         showUpdateProjecitonPanel = false;

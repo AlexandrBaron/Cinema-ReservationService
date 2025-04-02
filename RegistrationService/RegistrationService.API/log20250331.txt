@@ -1,0 +1,145 @@
+2025-03-31 19:10:42.560 +02:00 [INF] Registered 9 endpoints in 5 730 milliseconds.
+2025-03-31 19:10:44.224 +02:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-03-31 19:10:44.228 +02:00 [INF] Quartz Scheduler created
+2025-03-31 19:10:44.232 +02:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2025-03-31 19:10:44.235 +02:00 [INF] RAMJobStore initialized.
+2025-03-31 19:10:44.240 +02:00 [INF] Quartz Scheduler 3.14.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-03-31 19:10:44.243 +02:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-03-31 19:10:44.252 +02:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-03-31 19:10:44.284 +02:00 [INF] Adding 1 jobs, 1 triggers.
+2025-03-31 19:10:44.291 +02:00 [INF] Adding job: DEFAULT.DeleteExpiredReservationsJob
+2025-03-31 19:10:44.936 +02:00 [INF] Now listening on: https://localhost:7275
+2025-03-31 19:10:44.944 +02:00 [INF] Now listening on: http://localhost:5120
+2025-03-31 19:10:45.767 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-31 19:10:45.900 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-31 19:10:45.904 +02:00 [INF] Hosting environment: Development
+2025-03-31 19:10:45.908 +02:00 [INF] Content root path: C:\Users\Alexa\source\repos\Cinema-ReservationService\RegistrationService\RegistrationService.API
+2025-03-31 19:10:45.909 +02:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2025-03-31 19:26:17.651 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger - null null
+2025-03-31 19:26:18.193 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger - 302 0 null 548.7901ms
+2025-03-31 19:26:18.201 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-03-31 19:26:18.445 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html; charset=utf-8 244.3809ms
+2025-03-31 19:26:18.461 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/swagger-ui.css - null null
+2025-03-31 19:26:18.461 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.css - null null
+2025-03-31 19:26:18.462 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/swagger-ui-bundle.js - null null
+2025-03-31 19:26:18.462 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 19:26:18.462 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-31 19:26:18.516 +02:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-31 19:26:18.529 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 66.3546ms
+2025-03-31 19:26:18.530 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.css - 200 218 text/css 68.9261ms
+2025-03-31 19:26:18.550 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-31 19:26:18.569 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-31 19:26:18.601 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/swagger-ui-standalone-preset.js - 200 230294 text/javascript 139.0571ms
+2025-03-31 19:26:18.601 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/swagger-ui.css - 200 152073 text/css 140.4769ms
+2025-03-31 19:26:18.622 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-31 19:26:18.627 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-03-31 19:26:18.637 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/swagger-ui-bundle.js - 200 1452754 text/javascript 175.7347ms
+2025-03-31 19:26:18.731 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.3992ms
+2025-03-31 19:26:19.170 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-03-31 19:26:19.237 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/favicon-32x32.png - null null
+2025-03-31 19:26:19.254 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-31 19:26:19.260 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/favicon-32x32.png - 200 628 image/png 23.2406ms
+2025-03-31 19:26:20.895 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1724.4254ms
+2025-03-31 19:27:49.523 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Users - application/json 54
+2025-03-31 19:27:49.548 +02:00 [INF] Executing endpoint 'HTTP: POST /Users'
+2025-03-31 19:27:49.880 +02:00 [INF] Handling CreateUserCommand
+2025-03-31 19:27:49.885 +02:00 [INF] Property Email : New Email
+2025-03-31 19:27:49.891 +02:00 [INF] Property PhoneNumber : 123456789
+2025-03-31 19:28:04.080 +02:00 [INF] Executed endpoint 'HTTP: POST /Users'
+2025-03-31 19:28:04.086 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Cinema.RegistrationService" requested by the login. The login failed.
+Login failed for user 'A1\Alexa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:fe2e2a97-463b-4e20-b3ae-f92003f886e4
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method397(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at RegistrationService.Infrastructure.Repositories.UserRepository.ExistsWithEmail(String email) in C:\Users\Alexa\source\repos\Cinema-ReservationService\RegistrationService\RegistrationService.Infrastructure\Repositories\UserRepository.cs:line 10
+   at RegistrationService.UseCases.Users.Create.CreateUserHandler.Handle(CreateUserCommand request, CancellationToken cancellationToken) in C:\Users\Alexa\source\repos\Cinema-ReservationService\RegistrationService\RegistrationService.UseCases\Users\Create\CreateUserHandler.cs:line 17
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at RegistrationService.API.Users.Create.Create.HandleAsync(CreateUserRequest req, CancellationToken ct) in C:\Users\Alexa\source\repos\Cinema-ReservationService\RegistrationService\RegistrationService.API\Users\Create\Create.cs:line 20
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-31 19:28:04.193 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Users - 500 null text/plain; charset=utf-8 14670.1213ms
+2025-03-31 19:30:39.492 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7275/Users - application/json 54
+2025-03-31 19:30:39.504 +02:00 [INF] Executing endpoint 'HTTP: POST /Users'
+2025-03-31 19:30:39.513 +02:00 [INF] Handling CreateUserCommand
+2025-03-31 19:30:39.518 +02:00 [INF] Property Email : New Email
+2025-03-31 19:30:39.523 +02:00 [INF] Property PhoneNumber : 123456789
+2025-03-31 19:30:40.801 +02:00 [INF] Handled CreateUserCommand with Ardalis.Result.Result`1[System.Guid] in 1269 ms
+2025-03-31 19:30:40.818 +02:00 [INF] Executed endpoint 'HTTP: POST /Users'
+2025-03-31 19:30:40.825 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7275/Users - 200 null application/json; charset=utf-8 1333.4926ms
+2025-03-31 19:35:14.832 +02:00 [INF] Registered 9 endpoints in 874 milliseconds.
+2025-03-31 19:35:15.165 +02:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-03-31 19:35:15.168 +02:00 [INF] Quartz Scheduler created
+2025-03-31 19:35:15.171 +02:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2025-03-31 19:35:15.175 +02:00 [INF] RAMJobStore initialized.
+2025-03-31 19:35:15.181 +02:00 [INF] Quartz Scheduler 3.14.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-03-31 19:35:15.184 +02:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-03-31 19:35:15.188 +02:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-03-31 19:35:15.208 +02:00 [INF] Adding 1 jobs, 1 triggers.
+2025-03-31 19:35:15.214 +02:00 [INF] Adding job: DEFAULT.DeleteExpiredReservationsJob
+2025-03-31 19:35:15.556 +02:00 [INF] Now listening on: https://localhost:7275
+2025-03-31 19:35:15.563 +02:00 [INF] Now listening on: http://localhost:5120
+2025-03-31 19:35:15.626 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-31 19:35:15.730 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-31 19:35:15.735 +02:00 [INF] Hosting environment: Development
+2025-03-31 19:35:15.737 +02:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2025-03-31 19:35:15.739 +02:00 [INF] Content root path: C:\Users\Alexa\source\repos\Cinema-ReservationService\RegistrationService\RegistrationService.API
+2025-03-31 20:12:56.555 +02:00 [INF] Registered 9 endpoints in 1 068 milliseconds.
+2025-03-31 20:12:56.933 +02:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-03-31 20:12:56.937 +02:00 [INF] Quartz Scheduler created
+2025-03-31 20:12:56.940 +02:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2025-03-31 20:12:56.944 +02:00 [INF] RAMJobStore initialized.
+2025-03-31 20:12:56.948 +02:00 [INF] Quartz Scheduler 3.14.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-03-31 20:12:56.954 +02:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-03-31 20:12:56.958 +02:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-03-31 20:12:56.979 +02:00 [INF] Adding 1 jobs, 1 triggers.
+2025-03-31 20:12:56.986 +02:00 [INF] Adding job: DEFAULT.DeleteExpiredReservationsJob
+2025-03-31 20:12:57.364 +02:00 [INF] Now listening on: https://localhost:7275
+2025-03-31 20:12:57.369 +02:00 [INF] Now listening on: http://localhost:5120
+2025-03-31 20:12:57.427 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-03-31 20:12:57.545 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-31 20:12:57.548 +02:00 [INF] Hosting environment: Development
+2025-03-31 20:12:57.551 +02:00 [INF] Content root path: C:\Users\Alexa\source\repos\Cinema-ReservationService\RegistrationService\RegistrationService.API
+2025-03-31 20:12:57.560 +02:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
