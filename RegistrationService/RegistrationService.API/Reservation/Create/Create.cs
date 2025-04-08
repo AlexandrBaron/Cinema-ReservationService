@@ -1,5 +1,4 @@
 ﻿using System.Data;
-using RegistrationService.Infrastructure.Client;
 using RegistrationService.Infrastructure.RabbitMQ;
 using RegistrationService.Infrastructure.Repositories;
 using RegistrationService.Infrastructure.TokenService;

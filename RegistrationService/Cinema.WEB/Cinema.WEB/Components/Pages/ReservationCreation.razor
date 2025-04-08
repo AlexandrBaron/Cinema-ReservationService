@@ -1,11 +1,10 @@
 ﻿@page "/ReservationCreation/{ProjectionId:guid}"
-@inject NavigationManager Navigation
-@using Cinema.WEB.Api
-@using Cinema.Common.Entities.MovieService
-@inject ReservationServiceHttpClient UsersClient
-@inject MovieServiceHttpClient MovieServiceClient
-@inject CinemaServiceHttpClient CinemaServiceClient
 @rendermode InteractiveServer
+@using Cinema.Common.Entities.MovieService
+@inject NavigationManager Navigation
+@inject Cinema.Common.HttpClients.ReservationServiceHttpClient reservationServiceClient
+@inject Cinema.Common.HttpClients.MovieServiceHttpClient movieServiceClient
+@inject Cinema.Common.HttpClients.CinemaServiceHttpClient cinemaServiceClient
 
 <PageTitle>Reservation Creation</PageTitle>
 
@@ -19,61 +18,59 @@
 
     <div class="reservation-box">
         <div class="reservation-details">
-            <div class="movie-title">@MovieName</div>
+            <div class="movie-title">@movieName</div>
             <div class="seat-info">
-                <strong>SEDADLA:</strong> @FormattedSeats
+                <strong>SEDADLA:</strong> @formattedSeats
             </div>
             <div class="email-box">
                 <label for="email"><strong>EMAIL:</strong></label>
                 <input type="email"
                 id="email"
-                @bind="UserEmail"
-                @bind:after="() => ShowErrorMessage = false"
+                @bind="userEmail"
+                @bind:after="() => showErrorMessage = false"
                 placeholder="Zadejte svůj e-mail">
             </div>
         </div>
 
-        @if (ShowErrorMessage)
+        @if (showErrorMessage)
         {
             <div class="error-message">
                 Účet na tento email neexistuje, vytvořte jej kliknutím na "VYTVOŘIT ÚČET".
             </div>
         }
 
-        <button class="reserve-button" @onclick="ConfirmReservationFix" disabled="@IsReservationDisabled">
+        <button class="reserve-button" @onclick="ConfirmReservationFix" disabled="@isReservationDisabled">
             REZERVOVAT
         </button>
     </div>
 </div>
 
 @code {
+    private ProjectionEntity projekce = null;
+    private List<Guid> seatIds = new();
+    private List<string> seatDetails = new();
     [Parameter]
-    public Guid ProjectionId { get; set; }
-
+    public Guid projectionId { get; set; }
+    private string formattedSeats { get; set; } = "Žádné sedadlo";
+    private string userEmail { get; set; } = "";
+    private bool showErrorMessage { get; set; } = false;
+    private bool isReservationDisabled => string.IsNullOrWhiteSpace(userEmail);
+    private string hallName = null;
+    private string startingTime = null;
+    private string movieName = null;
     [Parameter]
     [SupplyParameterFromQuery(Name = "seats")]
     public string seats { get; set; }
 
-    private List<Guid> seatIds = new();
-    private string FormattedSeats { get; set; } = "Žádné sedadlo";
-    private string UserEmail { get; set; } = "";
-    private bool ShowErrorMessage { get; set; } = false;
-    private bool IsReservationDisabled => string.IsNullOrWhiteSpace(UserEmail);
-    private ProjectionEntity Projekce = null;
-    private string HallName = null;
-    private string StartingTime = null;
-    private string MovieName = null;
-    private List<string> seatDetails = new();
-
 
     protected async override Task OnInitializedAsync()
     {
-        Projekce = await MovieServiceClient.GetProjectionById(ProjectionId);
-        var hall = await CinemaServiceClient.GetHallByHallId(Projekce.HallId);
-        HallName = hall.Name;
-        StartingTime = Projekce.StartTime.ToLongDateString();
-        var movie = await MovieServiceClient.GetMovieById(Projekce.MovieId);
-        MovieName = movie.Title;
+        projekce = await movieServiceClient.GetProjectionById(projectionId);
+        var hall = await cinemaServiceClient.GetHallByHallId(projekce.HallId);
+        hallName = hall.Name;
+        startingTime = projekce.StartTime.ToLongDateString();
+        var movie = await movieServiceClient.GetMovieById(projekce.MovieId);
+        movieName = movie.Title;
 
         if (!string.IsNullOrEmpty(seats))
         {
@@ -82,24 +79,24 @@
                            .ToList();
             foreach(var item in seatIds)
             {
-                seatDetails.Add(await CinemaServiceClient.GetSeatInfo(item));
+                seatDetails.Add(await cinemaServiceClient.GetSeatInfo(item));
             }
 
-            FormattedSeats = string.Join(" | ", seatDetails);
+            formattedSeats = string.Join(" | ", seatDetails);
         }
     }
 
     private async Task ConfirmReservationFix()
     {
-        ShowErrorMessage = false;
+        showErrorMessage = false;
 
-        if (string.IsNullOrWhiteSpace(UserEmail)) return;
+        if (string.IsNullOrWhiteSpace(userEmail)) return;
 
-        var userId = await UsersClient.GetUserIdByEmail(UserEmail);
+        var userId = await reservationServiceClient.GetUserIdByEmail(userEmail);
 
         if (userId == Guid.Empty)
         {
-            ShowErrorMessage = true;
+            showErrorMessage = true;
             return;
         }
 
@@ -110,7 +107,7 @@
     {
         try
         {
-            var result = await UsersClient.CreateReservation(ProjectionId, seatIds, userId);
+            var result = await reservationServiceClient.CreateReservation(projectionId, seatIds, userId);
             
             //Navigation.NavigateTo($"/ReservationConfirmation/{result}");
             Navigation.NavigateTo($"/");

@@ -1,16 +1,15 @@
 ﻿@page "/seats/{ProjectionId:guid}"
-@inject NavigationManager Navigation
-@using Cinema.WEB.Api
-@using Cinema.Common.Entities.MovieService
-@inject MovieServiceHttpClient MovieServiceClient
-@inject CinemaServiceHttpClient CinemaServiceClient
 @rendermode InteractiveServer
+@using Cinema.Common.Entities.MovieService
+@inject NavigationManager Navigation
+@inject Cinema.Common.HttpClients.MovieServiceHttpClient MovieServiceClient
+@inject Cinema.Common.HttpClients.CinemaServiceHttpClient CinemaServiceClient
 
 <PageTitle>Rozložení sedadel</PageTitle>
 
 <div class="container">
-    <h2>@MovieName</h2>
-    <h2>@HallName, @StartingTime</h2>
+    <h2>@movieName</h2>
+    <h2>@hallName, @startingTime</h2>
 
     @if (isLoading)
     {
@@ -24,8 +23,6 @@
         }
         else
         {
-            // render sedadel a tlačítek
-
             <div class="screen"></div>
 
             <div class="seating-chart">
@@ -67,15 +64,15 @@
 
     [Parameter]
     [SupplyParameterFromQuery(Name = "seats")]
-    public string SelectedSeatsQuery { get; set; }
+    public string selectedSeatsQuery { get; set; }
 
     private List<SeatViewModel> seatData = new();
     private HashSet<string> selectedSeats = new();
     private bool isLoading = true;
-    private ProjectionEntity Projekce = null;
-    private string HallName = null;
-    private string StartingTime = null;
-    private string MovieName = null;
+    private ProjectionEntity projekce = null;
+    private string hallName = null;
+    private string startingTime = null;
+    private string movieName = null;
     private bool firstRenderCompleted = false;
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -90,12 +87,12 @@
     {
         var stopwatch = System.Diagnostics.Stopwatch.StartNew();
 
-        Projekce = await MovieServiceClient.GetProjectionById(ProjectionId);
-        var hall = await CinemaServiceClient.GetHallByHallId(Projekce.HallId);
-        HallName = hall.Name;
-        StartingTime = Projekce.StartTime.ToLongDateString();
-        var movie = await MovieServiceClient.GetMovieById(Projekce.MovieId);
-        MovieName = movie.Title;
+        projekce = await MovieServiceClient.GetProjectionById(ProjectionId);
+        var hall = await CinemaServiceClient.GetHallByHallId(projekce.HallId);
+        hallName = hall.Name;
+        startingTime = projekce.StartTime.ToLongDateString();
+        var movie = await MovieServiceClient.GetMovieById(projekce.MovieId);
+        movieName = movie.Title;
         try
         {
             var seats = await MovieServiceClient.GetSeatsProjectionId(ProjectionId);
@@ -125,7 +122,7 @@
 
     protected override void OnParametersSet()
     {
-        selectedSeats = SelectedSeatsQuery?.Split(',', StringSplitOptions.RemoveEmptyEntries).ToHashSet()
+        selectedSeats = selectedSeatsQuery?.Split(',', StringSplitOptions.RemoveEmptyEntries).ToHashSet()
                         ?? new HashSet<string>();
     }
 

@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Ardalis.Result" Version="10.1.0" />
     <PackageReference Include="Ardalis.SharedKernel" Version="2.1.1" />
-	  <PackageReference Include="Cinema.Common" Version="1.0.2" />
+	  <PackageReference Include="Cinema.Common" Version="1.0.3" />
 	  <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.1" />
   </ItemGroup>
 

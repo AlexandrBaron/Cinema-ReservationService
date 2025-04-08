@@ -1,8 +1,7 @@
 ﻿@page "/Reservation/Confirm"
-@inject NavigationManager Navigation
-@using Cinema.WEB.Api
-@inject ReservationServiceHttpClient ReservationService
 @rendermode InteractiveServer
+@inject NavigationManager Navigation
+@inject Cinema.Common.HttpClients.ReservationServiceHttpClient reservationServiceClient;
 
 <PageTitle>Potvrzení rezervace</PageTitle>
 
@@ -11,16 +10,6 @@
     <h3>POTVRZENÍ REZERVACE</h3>
 
     <div class="reservation-box">
-        @* <div class="reservation-details">
-            <div class="movie-title">@MovieName</div>
-            <div class="seat-info">
-                <strong>SEDADLA:</strong> @FormattedSeats
-            </div>
-            <div class="seat-info">
-                <strong>EMAIL:</strong> @UserEmail
-            </div>
-        </div> *@
-
         @if (ShowSuccessMessage)
         {
             <div class="alert alert-success mt-3">
@@ -36,7 +25,6 @@
 @code {
     [SupplyParameterFromQuery]
     public string Token { get; set; }
-
     private string MovieName = null;
     private string FormattedSeats { get; set; } = "Žádné sedadlo";
     private string UserEmail { get; set; } = "";
@@ -44,7 +32,7 @@
 
     protected async override Task OnInitializedAsync()
     {
-          await ReservationService.ConfirmReservation(Token);
+          await reservationServiceClient.ConfirmReservation(Token);
           ShowSuccessMessage = true;
     }
 }

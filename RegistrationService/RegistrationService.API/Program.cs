@@ -3,7 +3,6 @@ using Microsoft.Extensions.Options;
 using Quartz;
 using RegistrationService.API.Configurations;
 using RegistrationService.Infrastructure.BackgroundJob;
-using RegistrationService.Infrastructure.Client;
 using RegistrationService.Infrastructure.RabbitMQ;
 using RegistrationService.Infrastructure.TokenService;
 using RegistrationService.Shared;

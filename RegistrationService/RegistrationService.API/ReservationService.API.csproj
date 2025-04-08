@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Ardalis.ListStartupServices" Version="1.1.4" />
     <PackageReference Include="Ardalis.Result" Version="10.1.0" />
-    <PackageReference Include="Cinema.Common" Version="1.0.2" />
+    <PackageReference Include="Cinema.Common" Version="1.0.3" />
     <PackageReference Include="FastEndpoints" Version="5.35.0" />
     <PackageReference Include="FastEndpoints.Swagger" Version="5.35.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />

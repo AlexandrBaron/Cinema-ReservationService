@@ -2,6 +2,7 @@
 global using Ardalis.SharedKernel;
 global using Cinema.Common.Entities.ReservationService;
 global using Cinema.Common.RequestModels.ReservationService;
+global using Cinema.Common.HttpClients;
 global using FastEndpoints;
 global using FastEndpoints.Swagger;
 global using MediatR;

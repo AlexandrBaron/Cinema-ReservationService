@@ -1,11 +1,11 @@
 ﻿@page "/Admin"
-@using Cinema.WEB.Api
+@rendermode InteractiveServer
 @using Cinema.Common.RequestModels.MovieService
 @using Cinema.Common.Entities.CinemaService
 @using Cinema.Common.Entities.MovieService
-@inject MovieServiceHttpClient movieClient
-@inject CinemaServiceHttpClient cinemaClient
-@rendermode InteractiveServer
+@using Cinema.Common.HttpClients;
+@inject Cinema.Common.HttpClients.CinemaServiceHttpClient cinemaServiceClient;
+@inject Cinema.Common.HttpClients.MovieServiceHttpClient movieServiceClient;
 
 <h2>KINO - admin page</h2>
 
@@ -18,8 +18,6 @@
 @if (aktivniMod == "filmy")
 {
     <div style="display: flex; flex-direction: row; gap: 20px; margin-top: 10px;">
-
-        <!-- LEVÁ ČÁST: seznam filmů -->
         <div style="width: 800px; border: 1px solid black; height: 600px; overflow-y: auto;">
             <table style="width: 100%;">
                 <thead>
@@ -136,30 +134,29 @@ else if (aktivniMod == "projekce")
 }
 
 @code {
-    private string aktivniMod = "filmy";
-    private string searchText = string.Empty;
-
-    private List<MovieEntity> Movies = new();
+    private List<MovieEntity> movies = new();
+    private List<Hall> halls = new();
     private MovieEntity? selectedMovie;
     private MovieEntity? editableMovie;
     private CreateProjectionRequestBase? editableProjection;
+    private DateTime startTime = DateTime.Now;
+    private Guid selectedHallId = Guid.Empty;
+    private string aktivniMod = "filmy";
+    private string searchText = string.Empty;
     private bool showEditPanel = false;
     private bool showCreatePanel = false;
     private bool showUpdateProjecitonPanel = false;
     private bool isCreating = false;
-    private DateTime startTime = DateTime.Now;
-    private List<Hall> halls = new();
-    private Guid selectedHallId = Guid.Empty;
 
     private IEnumerable<MovieEntity> FilteredMovies =>
         string.IsNullOrWhiteSpace(searchText)
-            ? Movies
-            : Movies.Where(m => m.Title.Contains(searchText, StringComparison.OrdinalIgnoreCase));
+            ? movies
+            : movies.Where(m => m.Title.Contains(searchText, StringComparison.OrdinalIgnoreCase));
 
     protected override async Task OnInitializedAsync()
     {
-        Movies = await movieClient.GetAllMovies();
-        halls = await cinemaClient.GetAllHalls();
+        movies = await movieServiceClient.GetAllMovies();
+        halls = await cinemaServiceClient.GetAllHalls();
     }
 
     private void SelectMovie(MovieEntity movie)
@@ -173,15 +170,15 @@ else if (aktivniMod == "projekce")
         if (selectedMovie is not null)
         {
             editableMovie = new MovieEntity
-                {
-                    Id = selectedMovie.Id,
-                    Title = selectedMovie.Title,
-                    Description = selectedMovie.Description,
-                    Director = selectedMovie.Director,
-                    Cast = selectedMovie.Cast,
-                    DurationInMinutes = selectedMovie.DurationInMinutes,
-                    IsPlaying = selectedMovie.IsPlaying
-                };
+            {
+                Id = selectedMovie.Id,
+                Title = selectedMovie.Title,
+                Description = selectedMovie.Description,
+                Director = selectedMovie.Director,
+                Cast = selectedMovie.Cast,
+                DurationInMinutes = selectedMovie.DurationInMinutes,
+                IsPlaying = selectedMovie.IsPlaying
+            };
 
             showCreatePanel = false;
             showEditPanel = true;
@@ -202,9 +199,9 @@ else if (aktivniMod == "projekce")
     {
         if(selectedMovie != null){
             Guid Id = selectedMovie.Id;
-            await movieClient.DeleteMovie(Id);
+            await movieServiceClient.DeleteMovie(Id);
         }
-        Movies = await movieClient.GetAllMovies();
+        movies = await movieServiceClient.GetAllMovies();
     }
 
     private void OnProjecitonUpdate()
@@ -232,12 +229,12 @@ else if (aktivniMod == "projekce")
 
         CreateProjectionRequestBase createProjection = new CreateProjectionRequestBase()
         {
-                MovieId = selectedMovie.Id,
-                HallId = selectedHallId,
-                StartTime = startTime
+             MovieId = selectedMovie.Id,
+             HallId = selectedHallId,
+             StartTime = startTime
         };
 
-        await movieClient.CreateProjeciton(createProjection);
+        await movieServiceClient.CreateProjeciton(createProjection);
     }
 
     private async Task SaveMovie()
@@ -248,41 +245,37 @@ else if (aktivniMod == "projekce")
         if (isCreating)
         {
             var command = new CreateMovieRequestBase
-                {
-                    Title = editableMovie.Title,
-                    Description = editableMovie.Description,
-                    Director = editableMovie.Director,
-                    Cast = editableMovie.Cast,
-                    DurationInMinutes = editableMovie.DurationInMinutes,
-                    IsPlaying = editableMovie.IsPlaying
-                };
+            {
+                Title = editableMovie.Title,
+                Description = editableMovie.Description,
+                Director = editableMovie.Director,
+                Cast = editableMovie.Cast,
+                DurationInMinutes = editableMovie.DurationInMinutes,
+                IsPlaying = editableMovie.IsPlaying
+            };
 
-
-            await movieClient.CreateMovie(command);
+            await movieServiceClient.CreateMovie(command);
         }
         else
         {
             var command = new MovieEntity
-                {
-                    Id = editableMovie.Id,
-                    Title = editableMovie.Title,
-                    Description = editableMovie.Description,
-                    Director = editableMovie.Director,
-                    Cast = editableMovie.Cast,
-                    DurationInMinutes = editableMovie.DurationInMinutes,
-                    IsPlaying = editableMovie.IsPlaying
-                };
+            {
+                Id = editableMovie.Id,
+                Title = editableMovie.Title,
+                Description = editableMovie.Description,
+                Director = editableMovie.Director,
+                Cast = editableMovie.Cast,
+                DurationInMinutes = editableMovie.DurationInMinutes,
+                IsPlaying = editableMovie.IsPlaying
+            };
 
-            
-
-
-            await movieClient.UpdateMovie(editableMovie.Id, command);
+            await movieServiceClient.UpdateMovie(editableMovie.Id, command);
         }
 
         showEditPanel = false;
         showCreatePanel = false;
 
-        Movies = await movieClient.GetAllMovies();
+        movies = await movieServiceClient.GetAllMovies();
     }
 
     private string GetRowClass(MovieEntity movie)

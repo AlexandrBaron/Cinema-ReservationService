@@ -1,9 +1,8 @@
 ﻿@page "/"
-@inject NavigationManager Navigation
 @rendermode InteractiveServer
-@using Cinema.WEB.Api;
 @using Cinema.Common.Entities.MovieService
-@inject MovieServiceHttpClient movieClient
+@inject Cinema.Common.HttpClients.MovieServiceHttpClient movieServiceClient
+@inject NavigationManager Navigation
 
 <PageTitle>Home</PageTitle>
 
@@ -26,7 +25,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        var activeMovies = await movieClient.GetAllMovies();
+        var activeMovies = await movieServiceClient.GetAllMovies();
         Movies = activeMovies.Where(m => m.IsPlaying == true).ToList();
     }
 }
@@ -62,7 +61,7 @@
         transition: background-color 0.3s;
     }
 
-        .movie-card:hover {
-            background-color: lightgray;
-        }
+    .movie-card:hover {
+        background-color: lightgray;
+    }
 </style>

@@ -9,8 +9,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Compile Remove="Client\CinemaServiceClient.cs" />
-		<Compile Remove="Client\MovieServiceClient.cs" />
+	  <Compile Remove="Client\**" />
+	  <EmbeddedResource Remove="Client\**" />
+	  <None Remove="Client\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Compile Remove="Data\DataConstants.cs" />
 	</ItemGroup>
 
@@ -25,7 +29,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Ardalis.Specification.EntityFrameworkCore" Version="8.0.0" />
-		<PackageReference Include="Cinema.Common" Version="1.0.2" />
+		<PackageReference Include="Cinema.Common" Version="1.0.3" />
 		<PackageReference Include="EasyNetQ" Version="7.8.0" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.2">

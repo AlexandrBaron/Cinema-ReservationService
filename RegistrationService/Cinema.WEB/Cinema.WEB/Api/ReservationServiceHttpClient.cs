@@ -46,12 +46,12 @@ namespace Cinema.WEB.Api
                 throw new Exception();
             }
         }
-        public async Task<GetUserByIdResponse> GetUserById(Guid Id)
+        public async Task<User> GetUserById(Guid Id)
         {
             string path = $"{BaseUrl}{Users.GetByIdPath}{Id.ToString()}";
             var response = await _httpClient.GetAsync(path);
             var content = await response.Content.ReadAsStringAsync();
-            var result = JsonSerializer.Deserialize<GetUserByIdResponse>(content, options);
+            var result = JsonSerializer.Deserialize<User>(content, options);
             return result;
         }
         public async Task<Guid> GetUserIdByEmail(string email)

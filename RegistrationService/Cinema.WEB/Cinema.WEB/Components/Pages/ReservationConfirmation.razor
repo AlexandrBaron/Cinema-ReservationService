@@ -1,10 +1,9 @@
 ﻿@page "/ReservationConfirmation/{ReservationId:guid}"
-@inject NavigationManager Navigation
-@using Cinema.WEB.Api
-@inject ReservationServiceHttpClient ReservationService
-@inject MovieServiceHttpClient MovieServiceClient
-@inject CinemaServiceHttpClient CinemaServiceClient
 @rendermode InteractiveServer
+@inject NavigationManager Navigation
+@inject Cinema.Common.HttpClients.ReservationServiceHttpClient reservationServiceClient
+@inject Cinema.Common.HttpClients.MovieServiceHttpClient movieServiceClient
+@inject Cinema.Common.HttpClients.CinemaServiceHttpClient cinemaServiceClient
 
 
 <PageTitle>ReservationConfirmation</PageTitle>
@@ -56,26 +55,24 @@
 
     protected async override Task OnInitializedAsync()
     {
-        var reservation = await ReservationService.GetReservationById(ReservationId);
-        var projection = await MovieServiceClient.GetProjectionById(reservation.ProjectionId);
+        var reservation = await reservationServiceClient.GetReservationById(ReservationId);
+        var projection = await movieServiceClient.GetProjectionById(reservation.ProjectionId);
 
-        var movie = await MovieServiceClient.GetMovieById(projection.MovieId);
+        var movie = await movieServiceClient.GetMovieById(projection.MovieId);
         var MovieName = movie.Title;
 
         foreach (var item in reservation.SeatId)
         {
-            seatDetails.Add(await CinemaServiceClient.GetSeatInfo(item));
+            seatDetails.Add(await cinemaServiceClient.GetSeatInfo(item));
         }
         FormattedSeats = string.Join(" | ", seatDetails);
 
-        var user = await ReservationService.GetUserById(reservation.UserId);
+        var user = await reservationServiceClient.GetUserById(reservation.UserId);
 
         UserEmail = user.Email;
     }
 
     private async Task ConfirmReservationFix()
     {
-        // await ReservationService.ConfirmReservation(ReservationId);
-        // ShowSuccessMessage = true;
     }
 }

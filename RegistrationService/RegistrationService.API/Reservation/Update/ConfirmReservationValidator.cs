@@ -1,8 +1,6 @@
 ﻿using FluentValidation;
-using RegistrationService.API.Reservation.Update;
 
 namespace RegistrationService.UseCases.Registrations.Update;
-
 public class ConfirmReservationValidator : Validator<ConfirmReservationRequest>
 {
     public ConfirmReservationValidator()

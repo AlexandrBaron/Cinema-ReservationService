@@ -1,10 +1,9 @@
 ﻿@page "/projections/{MovieId:guid}"
-@inject NavigationManager Navigation
 @rendermode InteractiveServer
-@using Cinema.WEB.Api
 @using Cinema.Common.Entities.MovieService
-@inject MovieServiceHttpClient movieClient
-@inject CinemaServiceHttpClient cinemaClient
+@inject NavigationManager Navigation
+@inject Cinema.Common.HttpClients.MovieServiceHttpClient movieServiceClient
+@inject Cinema.Common.HttpClients.CinemaServiceHttpClient cinemaServiceClient
 
 <PageTitle>Projections</PageTitle>
 
@@ -78,18 +77,13 @@
 
     protected override async Task OnInitializedAsync()
     {
-        var movie = await movieClient.GetMovieById(MovieId);
+        var movie = await movieServiceClient.GetMovieById(MovieId);
         MovieTitle = movie.Title;
 
-        AllProjections = await movieClient.GetAllProjectionsOfMovie(MovieId);
+        AllProjections = await movieServiceClient.GetAllProjectionsOfMovie(MovieId);
 
         FilterProjectionsForSelectedDate();
         await LoadHallNamesAsync();
-        // foreach (var item in ProjectionsByHall)
-        // {
-        //     var hall = await cinemaClient.GetHallByHallId(item.Key);
-        //     hallNames.Add(item.Key, hall.Name);
-        // };
     }
 
     private void FilterProjectionsForSelectedDate()
@@ -138,7 +132,7 @@
         {
             try
             {
-                var hall = await cinemaClient.GetHallByHallId(item.Key);
+                var hall = await cinemaServiceClient.GetHallByHallId(item.Key);
                 if (!hallNames.ContainsKey(item.Key))
                     hallNames.Add(item.Key, hall.Name);
             }
@@ -148,7 +142,6 @@
             }
         }
     }
-
 }
 
 

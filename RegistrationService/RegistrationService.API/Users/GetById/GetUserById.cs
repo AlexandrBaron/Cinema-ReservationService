@@ -3,7 +3,7 @@
 namespace RegistrationService.API.Users.GetById
 {
     public class GetUserById(IMediator mediator)
-        : Endpoint<GetUserByIdRequest, GetUserByIdResponse>
+        : Endpoint<GetUserByIdRequest, User>
     {
         public override void Configure()
         {
@@ -17,7 +17,7 @@ namespace RegistrationService.API.Users.GetById
 
             if (result.IsSuccess)
             {
-                Response = new GetUserByIdResponse(content.Id, content.Email, content.PhoneNumber);
+                Response = new User { Id = content.Id, Email = content.Email, PhoneNumber = content.PhoneNumber };
                 return;
             }
 
